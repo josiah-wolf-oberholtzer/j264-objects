@@ -1,0 +1,20 @@
+CODING STANDARDS
+
+- All objects aligned to 5x5 grid
+
+- Avoid patchlines crossing over objects
+
+- Always use segmented patchcords
+
+- Create helpfiles for every objects demonstrating their functionality
+  (when practical)
+
+- Name objects according to their function
+  (balancing readability with repeatability)
+
+- Avoid acronyms (except commonly understood ones like "UI")
+
+- All objects must use the default Max5 font face and size (12pt Arial regular)
+
+- D.R.Y. as much as possible - if a subpatcher is used more than once in a single patch,
+  it should be an abstraction.
