@@ -1,0 +1,57 @@
+J264-OBJECTS 0.1
+
+
+
+ABOUT:
+
+The j264-objects are Max/MSP abstractions and Jamoma modules for live
+electronics.  If you're unfamiliar with Max5 or Jamoma, please start
+there first:
+
+- http://www.cycling74.com
+- http://www.jamoma.org
+
+Otherwise, peruse the patches in the examples folder to see the project
+in action.
+
+
+
+INSTALLATION:
+
+To install, simply add the j264-objects folder to your Max search path.
+This can be done one of two ways:
+
+1) Copy the j264-objects folder into your /Applications/Max5/Cycling74
+   folder.
+
+2) Add it to the search path via the "File Preferences" dialog in Max5's
+   "Options" menu.
+
+
+
+REQUIREMENTS:
+
+Max/MSP 5.1.9 or greater (untested with Max 6)
+Jamoma 0.54b2 (untested with 0.6)
+
+
+
+OTHER EXTERNALS:
+
+The j264-objects make use of externals from the following sources:
+
+ICST Ambisonics Externals
+(http://icst.net)
+
+AHarker Externals
+(http://alexanderjharker.co.uk/)
+
+Ircam Forum (supervp objects) (non-free, unfortunately)
+(http://forumnet.ircam.fr/)
+
+
+
+CONTACT:
+
+josiah.oberholtzer@gmail.com
+
