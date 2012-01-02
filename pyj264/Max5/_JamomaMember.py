@@ -4,11 +4,13 @@ class _JamomaMember(object):
         from pyj264.Max5.JamomaModule import JamomaModule
         assert isinstance(client, JamomaModule)
         self._client = client
+        self._client._register(self)
         self._name = name
         self._data_type = None
         self._range_bounds = None
         self._range_clipmode = None
         self._value = None
+
 
     ### OVERRIDES ###
 

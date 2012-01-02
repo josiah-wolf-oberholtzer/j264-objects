@@ -22,3 +22,8 @@ class JamomaModule(object):
     @property
     def _format_string(self):
         return '%s' % self._name
+
+    ### PUBLIC METHODS ###
+
+    def register(self, member):
+        self._members[member.name] = member
