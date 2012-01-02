@@ -1,4 +1,4 @@
-class JamomaMember(object):
+class _JamomaMember(object):
 
     def __init__(self, client, name):
         from pyj264.Max5.JamomaModule import JamomaModule
@@ -20,3 +20,4 @@ class JamomaMember(object):
     @property
     def _format_string(self):
         return '%s, %s' % (self._name, self._value)
+
