@@ -53,6 +53,30 @@ class MaxEnvironment(object):
         assert isinstance(value, JamomaModule) and item == value.name
         self.modules[item] = value
 
+    def __str__(self):
+        result = ['MaxEnvironment:']
+        for module_name in self.modules:
+            module = self.modules[module_name]
+            members = module.members.values( )
+            parameters = filter(lambda x: isinstance(x, JamomaParameter), members)
+            messages = filter(lambda x: isinstance(x, JamomaMessage), members)
+            returns = filter(lambda x: isinstance(x, JamomaReturn), members)
+            result.append('\t%s:' % module_name)
+            if parameters:
+                result.append('\t\tparameters:')
+                for x in sorted(parameters, key=lambda x: x.name):
+                    result.append('\t\t\t%s: %r %s' % (x.name, x.range_bounds, x.value))
+            if messages:
+                result.append('\t\tmessages:')
+                for x in sorted(messages, key=lambda x: x.name):
+                    result.append('\t\t\t%s: %r %s' % (x.name, x.range_bounds, x.value))
+            if parameters:
+                result.append('\t\treturns:')
+                for x in sorted(returns, key=lambda x: x.name):
+                    result.append('\t\t\t%s: %r %s' % (x.name, x.range_bounds, x.value))
+        return '\n'.join(result)
+                            
+
     ### PRIVATE METHODS ###
 
     def _discover_wait(self):
@@ -68,7 +92,12 @@ class MaxEnvironment(object):
         self._condition.release( )
 
     def _handle_max(self, addr, tags, data, source):
-        print data
+        module_name, member_name = self._parse_address(data[0])
+        payload = data[1:]
+        if 1 == len(payload):
+            payload = payload[0]
+        if module_name in self and member_name in self[module_name]:
+            self[module_name][member_name].value = payload
 
     def _handle_member_attributes(self, addr, tags, data, source):
         ### /members_attributes /address attr values
