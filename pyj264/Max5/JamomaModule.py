@@ -14,6 +14,9 @@ class JamomaModule(object):
 
     ### OVERRIDES ###
 
+    def __getitem__(self, item):
+        return self._members[item]
+
     def __repr__(self): 
         return '%s(%s)' % (type(self).__name__, self._format_string)
 
@@ -25,5 +28,5 @@ class JamomaModule(object):
 
     ### PUBLIC METHODS ###
 
-    def register(self, member):
+    def _register_member(self, member):
         self._members[member.name] = member
