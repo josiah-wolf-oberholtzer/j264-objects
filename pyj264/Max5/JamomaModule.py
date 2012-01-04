@@ -1,6 +1,6 @@
-#from pyj264.Max5.JamomaReturn import JamomaReturn
-#from pyj264.Max5.JamomaParameter import JamomaParameter
-#from pyj264.Max5.JamomaMessage import JamomaMessage
+from pyj264.Max5.JamomaReturn import JamomaReturn
+from pyj264.Max5.JamomaParameter import JamomaParameter
+from pyj264.Max5.JamomaMessage import JamomaMessage
 
 
 class JamomaModule(object):
@@ -9,8 +9,8 @@ class JamomaModule(object):
         from pyj264.Max5.MaxEnvironment import MaxEnvironment
         assert isinstance(client, MaxEnvironment)
         self._client = client
-        self._name = name
         self._members = { }
+        self.name = name
 
     ### OVERRIDES ###
 
@@ -24,9 +24,10 @@ class JamomaModule(object):
 
     @property
     def _format_string(self):
-        return '%s' % self._name
+        return '%r' % self.name
 
     ### PUBLIC METHODS ###
 
     def _register_member(self, member):
-        self._members[member.name] = member
+        if member.name not in self._members:
+            self._members[member.name] = member

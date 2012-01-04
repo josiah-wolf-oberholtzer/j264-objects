@@ -2,14 +2,15 @@ class _JamomaMember(object):
 
     def __init__(self, client, name):
         from pyj264.Max5.JamomaModule import JamomaModule
-        assert isinstance(client, JamomaModule)
+
+        self.name = name
+        self.data_type = None
+        self.range_bounds = None
+        self.range_clipmode = None
+        self.value = None
+
         self._client = client
         self._client._register_member(self)
-        self._name = name
-        self._data_type = None
-        self._range_bounds = None
-        self._range_clipmode = None
-        self._value = None
 
     ### OVERRIDES ###
 
@@ -20,4 +21,6 @@ class _JamomaMember(object):
 
     @property
     def _format_string(self):
-        return '%s, %s' % (self._name, self._value)
+        return '%s, %s' % (self.name, self.value)
+
+    
