@@ -4,17 +4,21 @@ from j264.Max5 import MaxEnvironment
 
 
 class Snapshot(dict):
+    '''Creates a diff-able snapshot of a MaxEnvironment instance.
+
+
+    '''
 
     def __init__(self, max5):
         assert isinstance(max5, MaxEnvironment)
         for module_name in max5.modules:
-            for parameter in max5[module_name].parameters:
-                name = module_name + parameter.name
-                value = parameter.value
-                if parameter.data_type in ['string', 'boolean'] or isinstance(value, (str, type(None))):
+            members = max5[module_name].parameters + max5[module_name].returns
+            for member in members:
+                name = module_name + member.name
+                value = member.value
+                if member.data_type in ['string','generic','none'] or isinstance(value, (str, type(None))):
                     continue
-                range = parameter.range_bounds
-                print name,
+                range = member.range_bounds
                 if isinstance(value, (list, tuple)):
                     value = tuple([self._normalize(x, range) for x in value])
                 else:
@@ -37,7 +41,6 @@ class Snapshot(dict):
     ### PRIVATE METHODS ###
 
     def _normalize(self, value, range):
-        print 'DIFF:', value, range
         diff = max(range) - min(range)
         if not diff:
             return 0.
