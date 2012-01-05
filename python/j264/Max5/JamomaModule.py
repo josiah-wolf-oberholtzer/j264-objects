@@ -1,13 +1,13 @@
-from pyj264.Max5._JamomaMember import _JamomaMember
-from pyj264.Max5.JamomaReturn import JamomaReturn
-from pyj264.Max5.JamomaParameter import JamomaParameter
-from pyj264.Max5.JamomaMessage import JamomaMessage
+from j264.Max5._JamomaMember import _JamomaMember
+from j264.Max5.JamomaReturn import JamomaReturn
+from j264.Max5.JamomaParameter import JamomaParameter
+from j264.Max5.JamomaMessage import JamomaMessage
 
 
 class JamomaModule(object):
 
     def __init__(self, client, name):
-        from pyj264.Max5.MaxEnvironment import MaxEnvironment
+        from j264.Max5.MaxEnvironment import MaxEnvironment
         assert isinstance(client, MaxEnvironment)
         self._client = client
         self.members = { }

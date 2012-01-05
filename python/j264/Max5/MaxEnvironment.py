@@ -1,9 +1,9 @@
 import OSC
 import threading
-from pyj264.Max5.JamomaMessage import JamomaMessage
-from pyj264.Max5.JamomaModule import JamomaModule
-from pyj264.Max5.JamomaParameter import JamomaParameter
-from pyj264.Max5.JamomaReturn import JamomaReturn
+from j264.Max5.JamomaMessage import JamomaMessage
+from j264.Max5.JamomaModule import JamomaModule
+from j264.Max5.JamomaParameter import JamomaParameter
+from j264.Max5.JamomaReturn import JamomaReturn
 
 
 class MaxEnvironment(object):

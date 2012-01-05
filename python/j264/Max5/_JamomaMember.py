@@ -3,7 +3,7 @@ class _JamomaMember(object):
     __slots__ = ('_client', '_subscribers', '_value', 'data_type', 'name', 'range_bounds', 'range_clipmode')
 
     def __init__(self, client, name):
-        from pyj264.Max5.JamomaModule import JamomaModule
+        from j264.Max5.JamomaModule import JamomaModule
 
         self._subscribers = [ ]
 
