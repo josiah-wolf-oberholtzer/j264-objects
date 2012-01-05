@@ -96,7 +96,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 535.0, 135.0, 69.0, 20.0 ],
-					"text" : "vtimes~ 1."
+					"text" : "times~ 1."
 				}
 
 			}
@@ -133,7 +133,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 460.0, 135.0, 69.0, 20.0 ],
-					"text" : "vtimes~ 1."
+					"text" : "times~ 1."
 				}
 
 			}
@@ -170,7 +170,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 385.0, 135.0, 69.0, 20.0 ],
-					"text" : "vtimes~ 1."
+					"text" : "times~ 1."
 				}
 
 			}
@@ -207,7 +207,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 310.0, 135.0, 69.0, 20.0 ],
-					"text" : "vtimes~ 1."
+					"text" : "times~ 1."
 				}
 
 			}
@@ -244,7 +244,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 235.0, 135.0, 69.0, 20.0 ],
-					"text" : "vtimes~ 1."
+					"text" : "times~ 1."
 				}
 
 			}
@@ -281,7 +281,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 160.0, 135.0, 69.0, 20.0 ],
-					"text" : "vtimes~ 1."
+					"text" : "times~ 1."
 				}
 
 			}
@@ -318,7 +318,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 85.0, 135.0, 69.0, 20.0 ],
-					"text" : "vtimes~ 1."
+					"text" : "times~ 1."
 				}
 
 			}
@@ -355,7 +355,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 10.0, 135.0, 69.0, 20.0 ],
-					"text" : "vtimes~ 1."
+					"text" : "times~ 1."
 				}
 
 			}

@@ -71,7 +71,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 10.0, 75.0, 69.0, 20.0 ],
-					"text" : "vtimes~ 1."
+					"text" : "times~ 1."
 				}
 
 			}
