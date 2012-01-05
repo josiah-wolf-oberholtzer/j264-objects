@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 157.0, 72.0, 1113.0, 850.0 ],
+		"rect" : [ 121.0, 121.0, 1107.0, 820.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 157.0, 72.0, 1113.0, 850.0 ],
+		"defrect" : [ 121.0, 121.0, 1107.0, 820.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -25,6 +25,19 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 570.0, 420.0, 100.0, 20.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -145,7 +158,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 790.0, 10.0, 300.0, 210.0 ],
+					"patching_rect" : [ 780.0, 10.0, 300.0, 210.0 ],
 					"presentation_rect" : [ 791.0, 11.0, 300.0, 210.0 ]
 				}
 
@@ -173,7 +186,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "signal" ],
-					"patching_rect" : [ 790.0, 230.0, 300.0, 210.0 ],
+					"patching_rect" : [ 780.0, 230.0, 300.0, 210.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 210.0 ]
 				}
 
@@ -186,7 +199,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.0, 375.0, 69.0, 20.0 ],
+					"patching_rect" : [ 940.0, 680.0, 69.0, 20.0 ],
 					"text" : "j264.pyudp"
 				}
 

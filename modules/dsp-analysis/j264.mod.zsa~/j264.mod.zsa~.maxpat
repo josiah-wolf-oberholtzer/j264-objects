@@ -7,10 +7,10 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 439.0, 349.0, 756.0, 553.0 ],
+		"rect" : [ 470.0, 230.0, 150.0, 105.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 439.0, 349.0, 756.0, 553.0 ],
+		"defrect" : [ 662.0, 418.0, 756.0, 553.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -62,7 +62,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 375.0, 230.0, 201.0, 20.0 ],
-					"text" : "jcom.return spread.* @type decimal"
+					"text" : "jcom.return spread @type decimal"
 				}
 
 			}
@@ -76,7 +76,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 325.0, 255.0, 217.0, 20.0 ],
-					"text" : "jcom.return skewness.* @type decimal"
+					"text" : "jcom.return skewness @type decimal"
 				}
 
 			}
@@ -90,7 +90,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 275.0, 280.0, 194.0, 20.0 ],
-					"text" : "jcom.return rolloff.* @type decimal"
+					"text" : "jcom.return rolloff @type decimal"
 				}
 
 			}
@@ -104,7 +104,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 225.0, 305.0, 206.0, 20.0 ],
-					"text" : "jcom.return kurtosis.* @type decimal"
+					"text" : "jcom.return kurtosis @type decimal"
 				}
 
 			}
@@ -118,7 +118,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 175.0, 330.0, 183.0, 20.0 ],
-					"text" : "jcom.return flux.* @type decimal"
+					"text" : "jcom.return flux @type decimal"
 				}
 
 			}
@@ -132,7 +132,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 125.0, 355.0, 214.0, 20.0 ],
-					"text" : "jcom.return decrease.* @type decimal"
+					"text" : "jcom.return decrease @type decimal"
 				}
 
 			}
@@ -146,7 +146,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 75.0, 380.0, 207.0, 20.0 ],
-					"text" : "jcom.return centroid.* @type decimal"
+					"text" : "jcom.return centroid @type decimal"
 				}
 
 			}
@@ -280,7 +280,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-5",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 40.0, 90.0, 153.0, 20.0 ],
@@ -520,7 +520,7 @@
 					"patching_rect" : [ 10.0, 10.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
-					"text" : "/editing_this_module"
+					"text" : "/zsa~"
 				}
 
 			}
