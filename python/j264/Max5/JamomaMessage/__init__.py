@@ -1,0 +1,1 @@
+from JamomaMessage import JamomaMessage

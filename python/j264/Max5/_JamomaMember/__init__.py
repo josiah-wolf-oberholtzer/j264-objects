@@ -1,0 +1,1 @@
+from _JamomaMember import _JamomaMember

@@ -1,0 +1,1 @@
+from JamomaModule import JamomaModule
