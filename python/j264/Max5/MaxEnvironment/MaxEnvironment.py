@@ -179,5 +179,18 @@ class MaxEnvironment(object):
         for module_name in self.modules:
             for member_name in self.modules[module_name].members:
                 self._wait_on_max = True
-                self._send_to_max('/discover', '/member_attributes', '%s%s' % (module_name, member_name))
+                self._send_to_max('/discover', '/member_attributes', 'type', '%s%s' % (module_name, member_name))
                 self._discover_wait( )
+
+                self._wait_on_max = True
+                self._send_to_max('/discover', '/member_attributes', 'range/bounds', '%s%s' % (module_name, member_name))
+                self._discover_wait( )
+
+                self._wait_on_max = True
+                self._send_to_max('/discover', '/member_attributes', 'range/clipmode', '%s%s' % (module_name, member_name))
+                self._discover_wait( )
+
+                if isinstance(self.modules[module_name][member_name], JamomaParameter):
+                    self._wait_on_max = True
+                    self._send_to_max('/discover', '/member_attributes', 'value', '%s%s' % (module_name, member_name))
+                    self._discover_wait( )

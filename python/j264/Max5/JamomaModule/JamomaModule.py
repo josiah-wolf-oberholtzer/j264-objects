@@ -40,15 +40,27 @@ class JamomaModule(object):
         if self.parameters:
             results.append('\tparameters:')
             for x in sorted(self.parameters, key=lambda x: x.name):
-                results.append('\t\t%s: %r %s' % (x.name, x.range_bounds, x.value))
+                if x.data_type == 'boolean':
+                    value = bool(x.value)
+                else:
+                    value = x.value
+                results.append('\t\t%s: %r %s' % (x.name, x.range_bounds, value))
         if self.messages:
             results.append('\tmessages:')
             for x in sorted(self.messages, key=lambda x: x.name):
-                results.append('\t\t%s: %r %s' % (x.name, x.range_bounds, x.value))
+                if x.data_type == 'boolean':
+                    value = bool(x.value)
+                else:
+                    value = x.value
+                results.append('\t\t%s: %r %s' % (x.name, x.range_bounds, value))
         if self.parameters:
             results.append('\treturns:')
             for x in sorted(self.returns, key=lambda x: x.name):
-                results.append('\t\t%s: %r %s' % (x.name, x.range_bounds, x.value))
+                if x.data_type == 'boolean':
+                    value = bool(x.value)
+                else:
+                    value = x.value
+                results.append('\t\t%s: %r %s' % (x.name, x.range_bounds, value))
         return results
 
     @property
