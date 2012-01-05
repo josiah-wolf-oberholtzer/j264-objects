@@ -54,28 +54,11 @@ class MaxEnvironment(object):
         self.modules[item] = value
 
     def __str__(self):
-        result = ['MaxEnvironment:']
+        results = ['MaxEnvironment:']
         for module_name in self.modules:
             module = self.modules[module_name]
-            members = module.members.values( )
-            parameters = filter(lambda x: isinstance(x, JamomaParameter), members)
-            messages = filter(lambda x: isinstance(x, JamomaMessage), members)
-            returns = filter(lambda x: isinstance(x, JamomaReturn), members)
-            result.append('\t%s:' % module_name)
-            if parameters:
-                result.append('\t\tparameters:')
-                for x in sorted(parameters, key=lambda x: x.name):
-                    result.append('\t\t\t%s: %r %s' % (x.name, x.range_bounds, x.value))
-            if messages:
-                result.append('\t\tmessages:')
-                for x in sorted(messages, key=lambda x: x.name):
-                    result.append('\t\t\t%s: %r %s' % (x.name, x.range_bounds, x.value))
-            if parameters:
-                result.append('\t\treturns:')
-                for x in sorted(returns, key=lambda x: x.name):
-                    result.append('\t\t\t%s: %r %s' % (x.name, x.range_bounds, x.value))
-        return '\n'.join(result)
-                            
+            results.extend(['\t' + x for x in module._format_pieces])
+        return '\n'.join(results)
 
     ### PRIVATE METHODS ###
 

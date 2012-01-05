@@ -1,7 +1,11 @@
 class _JamomaMember(object):
 
+    __slots__ = ('_client', '_subscribers', '_value', 'data_type', 'name', 'range_bounds', 'range_clipmode')
+
     def __init__(self, client, name):
         from pyj264.Max5.JamomaModule import JamomaModule
+
+        self._subscribers = [ ]
 
         self.name = name
         self.data_type = None
@@ -11,6 +15,7 @@ class _JamomaMember(object):
 
         self._client = client
         self._client._register_member(self)
+
 
     ### OVERRIDES ###
 
@@ -23,4 +28,20 @@ class _JamomaMember(object):
     def _format_string(self):
         return '%s, %s' % (self.name, self.value)
 
-    
+    ### PUBLIC ATTRIBUTES ###
+
+    @apply
+    def value( ):
+        def fget(self):
+            return self._value
+        def fset(self, arg):
+            self._value = arg
+            for subscriber in self._subscribers:
+                subscriber.push(arg)
+        return property(**locals( ))
+
+    ### PRIVATE METHODS ###
+
+    def _register_subscriber(self, subscriber):
+        if subscriber not in self._subscribers:
+            self._subscribers.append(subscriber)

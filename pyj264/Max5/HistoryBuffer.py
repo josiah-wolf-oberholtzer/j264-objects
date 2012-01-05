@@ -1,7 +1,7 @@
 import threading
 
 
-class Buffer(object):
+class HistoryBuffer(object):
 
     __slots__ = ('_buffer', '_mutex')
 

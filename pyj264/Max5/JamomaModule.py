@@ -28,11 +28,46 @@ class JamomaModule(object):
     def __repr__(self): 
         return '%s(%s)' % (type(self).__name__, self._format_string)
 
+    def __str__(self):
+        return '\n'.join(self._format_pieces)
+
     ### PRIVATE ATTRIBUTES ###
+
+    @property
+    def _format_pieces(self):
+        results = [ ]
+        results.append('%s:' % self.name)
+        if self.parameters:
+            results.append('\tparameters:')
+            for x in sorted(self.parameters, key=lambda x: x.name):
+                results.append('\t\t%s: %r %s' % (x.name, x.range_bounds, x.value))
+        if self.messages:
+            results.append('\tmessages:')
+            for x in sorted(self.messages, key=lambda x: x.name):
+                results.append('\t\t%s: %r %s' % (x.name, x.range_bounds, x.value))
+        if self.parameters:
+            results.append('\treturns:')
+            for x in sorted(self.returns, key=lambda x: x.name):
+                results.append('\t\t%s: %r %s' % (x.name, x.range_bounds, x.value))
+        return results
 
     @property
     def _format_string(self):
         return '%r' % self.name
+
+    ### PUBLIC ATTRIBUTES
+
+    @property
+    def messages(self):
+        return tuple(filter(lambda x: isinstance(x, JamomaMessage), self.members.values( )))
+
+    @property
+    def parameters(self):
+        return tuple(filter(lambda x: isinstance(x, JamomaParameter), self.members.values( )))
+
+    @property
+    def returns(self):
+        return tuple(filter(lambda x: isinstance(x, JamomaReturn), self.members.values( )))
 
     ### PUBLIC METHODS ###
 
