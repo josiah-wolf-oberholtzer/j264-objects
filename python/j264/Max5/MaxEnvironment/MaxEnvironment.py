@@ -47,7 +47,12 @@ class MaxEnvironment(object):
         return False
 
     def __getitem__(self, item):
-        return self.modules[item]
+        assert isinstance(item, str) and item.startswith('/') and 1 < len(item)
+        module, member = self._parse_address(item)
+        if not member:
+            return self.modules[module]
+        else:
+            return self.modules[module][member]
 
     def __setitem__(self, item, value):
         assert isinstance(value, JamomaModule) and item == value.name
