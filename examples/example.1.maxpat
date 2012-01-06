@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 148.0, 207.0, 1107.0, 820.0 ],
+		"rect" : [ 347.0, 44.0, 1107.0, 820.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 148.0, 207.0, 1107.0, 820.0 ],
+		"defrect" : [ 347.0, 44.0, 1107.0, 820.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -101,8 +101,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 595.0, 525.0, 215.0, 101.0 ],
-					"text" : "/noise~.2/gain 100, /noise~.2/source clicktrain, /noise~.2/clickfreq 5000, /noise~.2/send.1/destination /allpass~, /noise~.2/send.1/mode internal, /noise~.2/send.1/input/clipping 0.75 1, /noise~.2/send.1/internal/speed 0 0.5, /noise~.2/send.1/channel X"
+					"patching_rect" : [ 595.0, 525.0, 223.0, 101.0 ],
+					"text" : "/noise~.2/gain 100, /noise~.2/source clicktrain, /noise~.2/clickrate/value 0.5, /noise~.2/send.1/destination /allpass~, /noise~.2/send.1/mode internal, /noise~.2/send.1/input/clipping 0.75 1, /noise~.2/send.1/internal/speed 0 0.5, /noise~.2/send.1/channel X"
 				}
 
 			}

@@ -5,7 +5,15 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='clickfreq' type='decimal' priority='0' mixweight='1'>250.000000</item>
+    <item name='clickrate/allowbangs' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='clickrate/external/source/bang' type='string' priority='0' mixweight='1'>0</item>
+    <item name='clickrate/external/source/float' type='string' priority='0' mixweight='1'>0</item>
+    <item name='clickrate/input/clipping' type='array' priority='0' mixweight='1'>0.750000 1.000000 </item>
+    <item name='clickrate/internal/speed' type='array' priority='0' mixweight='1'>0.000000 0.250000 </item>
+    <item name='clickrate/mode' type='string' priority='0' mixweight='1'>manual</item>
+    <item name='clickrate/output/scaling' type='array' priority='0' mixweight='1'>0.000000 1.000000 </item>
+    <item name='clickrate/smoothing' type='integer' priority='0' mixweight='1'>0</item>
+    <item name='clickrate/value' type='array' priority='0' mixweight='1'>0</item>
     <item name='freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='gain' type='decimal' priority='0' mixweight='1'>1.000000</item>
     <item name='mute' type='boolean' priority='0' mixweight='1'>1</item>
