@@ -1,3 +1,4 @@
+from Event import Event
 from HistoryBuffer import HistoryBuffer
 from JamomaMessage import JamomaMessage
 from JamomaModule import JamomaModule

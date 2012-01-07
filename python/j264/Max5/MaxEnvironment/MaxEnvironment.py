@@ -153,7 +153,10 @@ class MaxEnvironment(object):
         if self._server.running:
             msg = OSC.OSCMessage(args[0])
             for arg in args[1:]:
-                msg.append(arg)
+                if isinstance(arg, type(True)):
+                    msg.append(int(arg))
+                else:
+                    msg.append(arg)
             self._client.send(msg)
         else:
             raise Exception('OSC Server not connected.')
