@@ -7,10 +7,10 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 470.0, 10.0, 450.0, 210.0 ],
+		"rect" : [ 470.0, 230.0, 450.0, 210.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 4.0, 44.0, 1020.0, 530.0 ],
+		"defrect" : [ 147.0, 44.0, 1020.0, 530.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -243,11 +243,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-5",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 90.0, 153.0, 20.0 ],
-					"text" : "j264.common.module #0"
+					"patching_rect" : [ 40.0, 90.0, 473.0, 20.0 ],
+					"text" : "j264.common.module #0 @automate sinusoids noise transients relax envtrans scrub"
 				}
 
 			}
@@ -259,7 +259,7 @@
 					"name" : "j264.bp.iosetup.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 90.0, 210.0, 20.0 ],
+					"patching_rect" : [ 276.0, 34.0, 210.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 205.0, 0.0, 210.0, 20.0 ]
 				}
@@ -681,6 +681,7 @@
 					"name" : "j264.mod.svp~.parambp.maxpat",
 					"numinlets" : 9,
 					"numoutlets" : 0,
+					"offset" : [ 0.0, -1170.0 ],
 					"patching_rect" : [ 450.0, 320.0, 125.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.0, 20.0, 290.0, 189.0 ]

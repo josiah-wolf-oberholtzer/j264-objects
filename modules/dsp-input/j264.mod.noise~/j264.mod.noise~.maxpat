@@ -7,10 +7,10 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 780.0, 10.0, 300.0, 210.0 ],
+		"rect" : [ 470.0, 10.0, 300.0, 210.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ -967.0, 208.0, 1006.0, 840.0 ],
+		"defrect" : [ -1109.0, 22.0, 1006.0, 840.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -36,32 +36,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 525.0, 450.0, 125.0, 20.0 ],
 					"text" : "scale 0. 1. 100 10000"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-21",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 650.0, 100.0, 20.0 ],
-					"text" : "print"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-28",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 650.0, 100.0, 20.0 ],
-					"text" : "print"
 				}
 
 			}
@@ -391,7 +365,6 @@
 					"name" : "j264.mod.in~.parambp.maxpat",
 					"numinlets" : 9,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, -195.0 ],
 					"patching_rect" : [ 180.0, 450.0, 175.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.0, 20.0, 140.0, 189.0 ]
@@ -521,7 +494,7 @@
 					"patching_rect" : [ 10.0, 10.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 210.0 ],
-					"text" : "/noise~.2"
+					"text" : "/noise~.1"
 				}
 
 			}
@@ -630,15 +603,6 @@
 					"destination" : [ "obj-15", 8 ],
 					"hidden" : 0,
 					"midpoints" : [ 434.5, 440.0, 345.5, 440.0 ],
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-2", 0 ]
 				}
 

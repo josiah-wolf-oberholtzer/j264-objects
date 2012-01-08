@@ -7,10 +7,10 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 470.0, 230.0, 150.0, 105.0 ],
+		"rect" : [ 995.0, 525.0, 150.0, 105.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 662.0, 418.0, 756.0, 553.0 ],
+		"defrect" : [ -1064.0, 354.0, 756.0, 553.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -89,8 +89,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 275.0, 280.0, 194.0, 20.0 ],
-					"text" : "jcom.return rolloff @type decimal"
+					"patching_rect" : [ 275.0, 280.0, 456.0, 20.0 ],
+					"text" : "jcom.return rolloff @type decimal @range/bounds 0. 22050. @range/clipmode both"
 				}
 
 			}
@@ -103,8 +103,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 225.0, 305.0, 206.0, 20.0 ],
-					"text" : "jcom.return kurtosis @type decimal"
+					"patching_rect" : [ 225.0, 305.0, 465.0, 20.0 ],
+					"text" : "jcom.return kurtosis @type decimal @range/bounds 0. 22050. @range/clipmode both"
 				}
 
 			}
@@ -117,8 +117,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 175.0, 330.0, 183.0, 20.0 ],
-					"text" : "jcom.return flux @type decimal"
+					"patching_rect" : [ 175.0, 330.0, 415.0, 20.0 ],
+					"text" : "jcom.return flux @type decimal @range/bounds 0. 1. @range/clipmode both"
 				}
 
 			}
@@ -145,8 +145,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 75.0, 380.0, 207.0, 20.0 ],
-					"text" : "jcom.return centroid @type decimal"
+					"patching_rect" : [ 75.0, 380.0, 463.0, 20.0 ],
+					"text" : "jcom.return centroid @type decimal @range/bounds 0. 22050 @range/clipmode both"
 				}
 
 			}
