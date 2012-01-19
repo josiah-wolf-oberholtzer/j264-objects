@@ -7,7 +7,7 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 470.0, 230.0, 450.0, 210.0 ],
+		"rect" : [ 780.0, 710.0, 450.0, 210.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 147.0, 44.0, 1020.0, 530.0 ],
@@ -26,6 +26,22 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-9",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"patching_rect" : [ 500.0, 65.0, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 173.0, 2.0, 30.0, 15.0 ],
+					"text" : "CMD"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-46",
@@ -246,7 +262,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 90.0, 473.0, 20.0 ],
+					"patching_rect" : [ 40.0, 90.0, 478.0, 20.0 ],
 					"text" : "j264.common.module #0 @automate sinusoids noise transients relax envtrans scrub"
 				}
 
@@ -482,7 +498,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 9,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 75.0, 285.0, 123.0, 20.0 ],
+					"patching_rect" : [ 75.0, 285.0, 125.0, 20.0 ],
 					"text" : "j264.io9 #0-output"
 				}
 
@@ -681,7 +697,6 @@
 					"name" : "j264.mod.svp~.parambp.maxpat",
 					"numinlets" : 9,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, -1170.0 ],
 					"patching_rect" : [ 450.0, 320.0, 125.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.0, 20.0, 290.0, 189.0 ]
@@ -1334,6 +1349,15 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
