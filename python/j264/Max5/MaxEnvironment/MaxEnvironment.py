@@ -1,14 +1,22 @@
-import OSC
 import threading
+
+import OSC
+
 from j264.Max5.JamomaMessage import JamomaMessage
 from j264.Max5.JamomaModule import JamomaModule
 from j264.Max5.JamomaParameter import JamomaParameter
 from j264.Max5.JamomaReturn import JamomaReturn
+from j264.Max5.PersistentAddress import PersistentAddress
+from j264.Max5.PersistentEvent import PersistentEvent
 
 
 class MaxEnvironment(object):
 
-    def __init__(self, ip, inport, outport, debug = False):
+    def __init__(self, ip, inport, outport, sqlite_path=None, debug = False):
+
+        self._sqlite_path = sqlite_path
+        self._session = None
+
         self.modules = { }
         self._server = OSC.OSCServer((ip, inport), return_port=outport)
 
@@ -202,3 +210,26 @@ class MaxEnvironment(object):
                     self._wait_on_max = True
                     self._send_to_max('/discover', '/member_attributes', 'value', '%s%s' % (module_name, member_name))
                     self._discover_wait( )
+
+    ### PERSISTENCE METHODS ###
+
+    def get_address_state_at_or_before(self, time):
+        pass
+
+    def get_address_state_during(self, start, stop):
+        pass
+
+    def get_address_state_since(self, time):
+        pass
+
+    def get_max5_state_at_or_before(self, time):
+        pass
+
+    def persist_address(self, address, type):
+        pass
+
+    def persist_event(self, timestamp, address, value):
+        pass
+
+    def reset_persistence(self):
+        pass
