@@ -80,7 +80,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 30.0, 140.0, 529.0, 20.0 ],
-					"text" : "jcom.parameter iosetup/algorithm/mode @type string @repetitions/allow 1 @value/default MONO"
+					"text" : "jcom.parameter iosetup/algorithm/mode @type string @repetitions/allow 0 @value/default MONO"
 				}
 
 			}
@@ -112,7 +112,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 30.0, 210.0, 531.0, 20.0 ],
-					"text" : "jcom.parameter iosetup/input/limiter/bypass @type boolean @repetitions/allow 1 @value/default 1"
+					"text" : "jcom.parameter iosetup/input/limiter/bypass @type boolean @repetitions/allow 0 @value/default 1"
 				}
 
 			}
@@ -126,7 +126,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 30.0, 70.0, 505.0, 20.0 ],
-					"text" : "jcom.parameter iosetup/input/mode @type string @repetitions/allow 1 @value/default MONO"
+					"text" : "jcom.parameter iosetup/input/mode @type string @repetitions/allow 0 @value/default MONO"
 				}
 
 			}

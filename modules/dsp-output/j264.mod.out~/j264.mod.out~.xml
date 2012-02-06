@@ -4,11 +4,59 @@
 		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
-  <preset number='1' name='default'>
+  <preset number='1' name='u242009882'>
+    <item name='filter' type='array' priority='0' mixweight='1'>10 1 0.500000 </item>
+    <item name='gain' type='decimal' priority='0' mixweight='1'>0.720000</item>
     <item name='iosetup/algorithm/mode' type='string' priority='0' mixweight='1'>OCTO</item>
     <item name='iosetup/input/limiter/bypass' type='boolean' priority='0' mixweight='1'>1</item>
     <item name='iosetup/input/mode' type='string' priority='0' mixweight='1'>OCTO</item>
-    <item name='mute' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='output' type='array' priority='0' mixweight='1'>1 2 3 4 5 6 7 8 </item>
+    <item name='view/color/border' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/size' type='array' priority='0' mixweight='1'>150 70 </item>
+  </preset>
+  <preset number='2' name='u078009887'>
+    <item name='filter' type='array' priority='0' mixweight='1'>10 1 0.500000 </item>
+    <item name='gain' type='decimal' priority='0' mixweight='1'>0.720000</item>
+    <item name='iosetup/algorithm/mode' type='string' priority='0' mixweight='1'>OCTO</item>
+    <item name='iosetup/input/limiter/bypass' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='iosetup/input/mode' type='string' priority='0' mixweight='1'>OCTO</item>
+    <item name='mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='output' type='array' priority='0' mixweight='1'>1 2 3 4 5 6 7 8 </item>
+    <item name='view/color/border' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/size' type='array' priority='0' mixweight='1'>150 70 </item>
+  </preset>
+  <preset number='3' name='u885009892'>
+    <item name='filter' type='array' priority='0' mixweight='1'>10 1 0.500000 </item>
+    <item name='gain' type='decimal' priority='0' mixweight='1'>0.720000</item>
+    <item name='iosetup/algorithm/mode' type='string' priority='0' mixweight='1'>OCTO</item>
+    <item name='iosetup/input/limiter/bypass' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='iosetup/input/mode' type='string' priority='0' mixweight='1'>OCTO</item>
+    <item name='mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='output' type='array' priority='0' mixweight='1'>1 2 3 4 5 6 7 8 </item>
+    <item name='view/color/border' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/size' type='array' priority='0' mixweight='1'>150 70 </item>
+  </preset>
+  <preset number='4' name='u991009897'>
+    <item name='filter' type='array' priority='0' mixweight='1'>10 1 0.500000 </item>
+    <item name='gain' type='decimal' priority='0' mixweight='1'>0.720000</item>
+    <item name='iosetup/algorithm/mode' type='string' priority='0' mixweight='1'>OCTO</item>
+    <item name='iosetup/input/limiter/bypass' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='iosetup/input/mode' type='string' priority='0' mixweight='1'>OCTO</item>
+    <item name='mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='output' type='array' priority='0' mixweight='1'>1 2 3 4 5 6 7 8 </item>
     <item name='view/color/border' type='array' priority='0' mixweight='1'>0</item>
     <item name='view/color/contentBackground' type='array' priority='0' mixweight='1'>0</item>
     <item name='view/color/toolbarBackground' type='array' priority='0' mixweight='1'>0</item>

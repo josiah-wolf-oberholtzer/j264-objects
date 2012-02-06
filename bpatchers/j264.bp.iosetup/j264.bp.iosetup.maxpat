@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 282.0, 44.0, 589.0, 396.0 ],
+		"rect" : [ 42.0, 81.0, 589.0, 396.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 282.0, 44.0, 589.0, 396.0 ],
+		"defrect" : [ 42.0, 81.0, 589.0, 396.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -94,7 +94,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 30.0, 210.0, 513.0, 20.0 ],
-					"text" : "jcom.parameter iosetup/output/mode @type string @repetitions/allow 1 @value/default MONO"
+					"text" : "jcom.parameter iosetup/output/mode @type string @repetitions/allow 0 @value/default MONO"
 				}
 
 			}
@@ -126,7 +126,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 30.0, 140.0, 529.0, 20.0 ],
-					"text" : "jcom.parameter iosetup/algorithm/mode @type string @repetitions/allow 1 @value/default MONO"
+					"text" : "jcom.parameter iosetup/algorithm/mode @type string @repetitions/allow 0 @value/default MONO"
 				}
 
 			}
@@ -158,7 +158,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 30.0, 350.0, 539.0, 20.0 ],
-					"text" : "jcom.parameter iosetup/output/limiter/bypass @type boolean @repetitions/allow 1 @value/default 1"
+					"text" : "jcom.parameter iosetup/output/limiter/bypass @type boolean @repetitions/allow 0 @value/default 1"
 				}
 
 			}
@@ -172,7 +172,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 30.0, 280.0, 531.0, 20.0 ],
-					"text" : "jcom.parameter iosetup/input/limiter/bypass @type boolean @repetitions/allow 1 @value/default 1"
+					"text" : "jcom.parameter iosetup/input/limiter/bypass @type boolean @repetitions/allow 0 @value/default 1"
 				}
 
 			}
@@ -186,7 +186,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 30.0, 70.0, 505.0, 20.0 ],
-					"text" : "jcom.parameter iosetup/input/mode @type string @repetitions/allow 1 @value/default MONO"
+					"text" : "jcom.parameter iosetup/input/mode @type string @repetitions/allow 0 @value/default MONO"
 				}
 
 			}

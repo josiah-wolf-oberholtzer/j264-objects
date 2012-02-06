@@ -17,7 +17,33 @@
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/size' type='array' priority='0' mixweight='1'>150 70 </item>
   </preset>
-  <preset number='2' name='u028008133'>
+  <preset number='2' name='u616009883'>
+    <item name='active' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='delay' type='integer' priority='0' mixweight='1'>2000</item>
+    <item name='device' type='generic' priority='1' mixweight='1'>USB O2 </item>
+    <item name='normalizeMidi' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='polarity' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/color/border' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/size' type='array' priority='0' mixweight='1'>150 70 </item>
+  </preset>
+  <preset number='3' name='u647009888'>
+    <item name='active' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='delay' type='integer' priority='0' mixweight='1'>2000</item>
+    <item name='device' type='generic' priority='1' mixweight='1'>USB O2 </item>
+    <item name='normalizeMidi' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='polarity' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/color/border' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/size' type='array' priority='0' mixweight='1'>150 70 </item>
+  </preset>
+  <preset number='4' name='u246009893'>
     <item name='active' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='delay' type='integer' priority='0' mixweight='1'>2000</item>
     <item name='device' type='generic' priority='1' mixweight='1'>USB O2 </item>

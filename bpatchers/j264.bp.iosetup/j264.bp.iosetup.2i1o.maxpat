@@ -52,7 +52,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 30.0, 75.0, 515.0, 20.0 ],
-					"text" : "jcom.parameter iosetup/input.1/mode @type string @repetitions/allow 1 @value/default MONO"
+					"text" : "jcom.parameter iosetup/input.1/mode @type string @repetitions/allow 0 @value/default MONO"
 				}
 
 			}
@@ -80,7 +80,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 30.0, 355.0, 541.0, 20.0 ],
-					"text" : "jcom.parameter iosetup/input.1/limiter/bypass @type boolean @repetitions/allow 1 @value/default 1"
+					"text" : "jcom.parameter iosetup/input.1/limiter/bypass @type boolean @repetitions/allow 0 @value/default 1"
 				}
 
 			}
@@ -154,7 +154,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 30.0, 285.0, 513.0, 20.0 ],
-					"text" : "jcom.parameter iosetup/output/mode @type string @repetitions/allow 1 @value/default MONO"
+					"text" : "jcom.parameter iosetup/output/mode @type string @repetitions/allow 0 @value/default MONO"
 				}
 
 			}
@@ -186,7 +186,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 30.0, 215.0, 529.0, 20.0 ],
-					"text" : "jcom.parameter iosetup/algorithm/mode @type string @repetitions/allow 1 @value/default MONO"
+					"text" : "jcom.parameter iosetup/algorithm/mode @type string @repetitions/allow 0 @value/default MONO"
 				}
 
 			}
@@ -218,7 +218,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 30.0, 495.0, 539.0, 20.0 ],
-					"text" : "jcom.parameter iosetup/output/limiter/bypass @type boolean @repetitions/allow 1 @value/default 1"
+					"text" : "jcom.parameter iosetup/output/limiter/bypass @type boolean @repetitions/allow 0 @value/default 1"
 				}
 
 			}
@@ -232,7 +232,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 30.0, 425.0, 541.0, 20.0 ],
-					"text" : "jcom.parameter iosetup/input.2/limiter/bypass @type boolean @repetitions/allow 1 @value/default 1"
+					"text" : "jcom.parameter iosetup/input.2/limiter/bypass @type boolean @repetitions/allow 0 @value/default 1"
 				}
 
 			}
@@ -246,7 +246,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 30.0, 145.0, 515.0, 20.0 ],
-					"text" : "jcom.parameter iosetup/input.2/mode @type string @repetitions/allow 1 @value/default MONO"
+					"text" : "jcom.parameter iosetup/input.2/mode @type string @repetitions/allow 0 @value/default MONO"
 				}
 
 			}
