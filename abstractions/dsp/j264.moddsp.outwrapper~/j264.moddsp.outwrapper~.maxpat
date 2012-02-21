@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 137.0, 441.0, 1032.0, 372.0 ],
+		"rect" : [ 525.0, 529.0, 1032.0, 372.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 137.0, 441.0, 1032.0, 372.0 ],
+		"defrect" : [ 525.0, 529.0, 1032.0, 372.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -247,13 +247,13 @@
 ,
 					"patching_rect" : [ 10.0, 185.0, 108.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p for-output-limiter"
@@ -303,7 +303,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 30.0, 200.0, 105.0, 18.0 ]
+									"patching_rect" : [ 30.0, 200.0, 105.0, 18.0 ],
+									"text" : "MONO"
 								}
 
 							}
@@ -409,7 +410,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 185.0, 165.0, 105.0, 18.0 ]
+									"patching_rect" : [ 185.0, 165.0, 105.0, 18.0 ],
+									"text" : "OCTO"
 								}
 
 							}
@@ -555,13 +557,13 @@
 ,
 					"patching_rect" : [ 25.0, 115.0, 105.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p for-output-mixer"
@@ -831,7 +833,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 155.0, 25.0, 20.0, 20.0 ]
 				}
 

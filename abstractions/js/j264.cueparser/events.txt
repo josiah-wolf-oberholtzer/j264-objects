@@ -1,0 +1,5 @@
+GROUP quux /*
+GROUP foo /in~ /out~
+GROUP bar /sfplay~ /allpass~
+GROUP baz ${GROUP:foo} ${GROUP:bar}
+GROUP quux /quux
