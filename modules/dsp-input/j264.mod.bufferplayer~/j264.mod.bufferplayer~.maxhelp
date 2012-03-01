@@ -26,6 +26,20 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "attack~" ],
+					"id" : "obj-4",
+					"maxclass" : "bpatcher",
+					"name" : "j264.mod.attack~.maxpat",
+					"numinlets" : 9,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "signal" ],
+					"patching_rect" : [ 355.0, 270.0, 300.0, 210.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 210.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "noise~" ],
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
