@@ -10,7 +10,7 @@
 		"rect" : [ 80.0, 20.0, 290.0, 189.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 232.0, 156.0, 1609.0, 586.0 ],
+		"defrect" : [ -1653.0, 54.0, 643.0, 970.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -806,7 +806,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 2010.0, 180.0, 240.0, 180.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 1570.0, 290.0, 180.0 ]
+					"presentation_rect" : [ 0.0, 790.0, 290.0, 180.0 ]
 				}
 
 			}
@@ -835,7 +835,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1750.0, 180.0, 240.0, 180.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 1375.0, 290.0, 180.0 ]
+					"presentation_rect" : [ 0.0, 595.0, 290.0, 180.0 ]
 				}
 
 			}
@@ -954,7 +954,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1490.0, 180.0, 240.0, 180.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 1180.0, 290.0, 175.0 ]
+					"presentation_rect" : [ 0.0, 400.0, 290.0, 175.0 ]
 				}
 
 			}
@@ -1096,7 +1096,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1230.0, 180.0, 240.0, 180.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 985.0, 290.0, 175.0 ]
+					"presentation_rect" : [ 0.0, 205.0, 290.0, 175.0 ]
 				}
 
 			}
