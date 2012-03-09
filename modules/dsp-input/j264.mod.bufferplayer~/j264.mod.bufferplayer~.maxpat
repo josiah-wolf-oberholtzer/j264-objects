@@ -7,10 +7,10 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 470.0, 10.0, 300.0, 210.0 ],
+		"rect" : [ -80.0, 44.0, 1645.0, 980.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 250.0, 44.0, 1645.0, 980.0 ],
+		"defrect" : [ -80.0, 44.0, 1645.0, 980.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -289,13 +289,13 @@
 ,
 					"patching_rect" : [ 630.0, 825.0, 77.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p randomize"
@@ -516,13 +516,13 @@
 ,
 					"patching_rect" : [ 631.0, 790.0, 148.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p external/source/bang"
@@ -536,7 +536,7 @@
 					"framecolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"hint" : "External Bang Source",
 					"id" : "obj-67",
-					"items" : [ "---", ",", "/noise~/attack" ],
+					"items" : "---",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -622,7 +622,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 845.0, 560.0, 210.0, 34.0 ],
-					"text" : "jcom.parameter iosetup/output/mode @type string @repetitions/allow 1"
+					"text" : "jcom.parameter iosetup/output/mode @type string @repetitions/allow 0"
 				}
 
 			}
@@ -994,7 +994,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 875.0, 200.0, 120.0, 75.0 ],
-					"text" : "jcom.parameter projectsubfolder @type string @repetitions/allow 1 @priority 2"
+					"text" : "jcom.parameter projectsubfolder @type string @repetitions/allow 0 @priority 2"
 				}
 
 			}
@@ -1009,7 +1009,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 745.0, 200.0, 120.0, 75.0 ],
-					"text" : "jcom.parameter projectpath @type string @repetitions/allow 1 @priority 1"
+					"text" : "jcom.parameter projectpath @type string @repetitions/allow 0 @priority 1"
 				}
 
 			}
@@ -1118,7 +1118,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-29",
-					"items" : [ "four", ",", "one", ",", "three", ",", "two" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1199,7 +1199,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1010.0, 230.0, 125.0, 48.0 ],
-					"text" : "jcom.message folder @type string @repetitions/allow 1"
+					"text" : "jcom.message folder @type string @repetitions/allow 0"
 				}
 
 			}
@@ -1841,13 +1841,13 @@
 ,
 					"patching_rect" : [ 75.0, 185.0, 44.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p note"
@@ -1875,8 +1875,8 @@
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "signal" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "signal", "" ],
 					"patching_rect" : [ 545.0, 260.0, 70.0, 20.0 ],
 					"text" : "j264.mute~"
 				}
@@ -2224,7 +2224,7 @@
 					"patching_rect" : [ 10.0, 15.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 210.0 ],
-					"text" : "/bplayer~"
+					"text" : "/editing_this_module"
 				}
 
 			}
@@ -2377,7 +2377,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 580.0, 282.0, 554.5, 282.0 ],
+					"midpoints" : [ 571.5, 282.0, 554.5, 282.0 ],
 					"source" : [ "obj-17", 1 ]
 				}
 
