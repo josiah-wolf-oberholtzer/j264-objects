@@ -102,7 +102,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 20.0, 50.0, 145.0, 48.0 ],
-					"text" : "pfft~ j264.mod.xsyn~.alg.pfft~ 4096 4"
+					"text" : "pfft~ j264.mod.xsyn~.alg.pfft~ 2048 4"
 				}
 
 			}

@@ -497,13 +497,13 @@
 ,
 									"patching_rect" : [ 50.0, 125.0, 69.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
 										"default_fontname" : "Arial",
-										"default_fontsize" : 12.0,
+										"globalpatchername" : "",
 										"fontname" : "Arial",
-										"globalpatchername" : ""
+										"default_fontsize" : 12.0,
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p h:m:s:ms"
@@ -579,13 +579,13 @@
 ,
 					"patching_rect" : [ 145.0, 100.0, 43.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
 						"fontname" : "Arial",
-						"globalpatchername" : ""
+						"default_fontsize" : 12.0,
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p time"
@@ -734,7 +734,7 @@
 					"patching_rect" : [ 145.0, 125.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 215.0, 10.0, 75.0, 20.0 ],
-					"text" : "0:00:00.000"
+					"text" : "0:01:12.033"
 				}
 
 			}

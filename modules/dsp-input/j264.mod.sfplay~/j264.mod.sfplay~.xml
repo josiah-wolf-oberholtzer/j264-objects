@@ -9,13 +9,13 @@
     <item name='filename' type='string' priority='3' mixweight='1'>0</item>
     <item name='folder' type='string' priority='2' mixweight='1'>0</item>
     <item name='freeze' type='boolean' priority='0' mixweight='1'>1</item>
-    <item name='gain' type='decimal' priority='0' mixweight='1'>0.766667</item>
+    <item name='gain' type='decimal' priority='0' mixweight='1'>0.000000</item>
     <item name='iosetup/output/mode' type='string' priority='0' mixweight='1'>OCTO</item>
-    <item name='loop' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='loop' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='mute' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='play' type='boolean' priority='4' mixweight='1'>1</item>
+    <item name='play' type='boolean' priority='4' mixweight='1'>0</item>
     <item name='send.1/allowbangs' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='send.1/destination' type='string' priority='0' mixweight='1'>/out~</item>
+    <item name='send.1/destination' type='string' priority='0' mixweight='1'>---</item>
     <item name='send.1/external/source/bang' type='string' priority='0' mixweight='1'>0</item>
     <item name='send.1/external/source/float' type='string' priority='0' mixweight='1'>0</item>
     <item name='send.1/input/clipping' type='array' priority='0' mixweight='1'>0.750000 1.000000 </item>
@@ -23,7 +23,7 @@
     <item name='send.1/mode' type='string' priority='0' mixweight='1'>manual</item>
     <item name='send.1/output/scaling' type='array' priority='0' mixweight='1'>0.000000 1.000000 </item>
     <item name='send.1/smoothing' type='integer' priority='0' mixweight='1'>1</item>
-    <item name='send.1/value' type='array' priority='0' mixweight='1'>0.544643</item>
+    <item name='send.1/value' type='array' priority='0' mixweight='1'>0.000000</item>
     <item name='send.2/allowbangs' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='send.2/destination' type='string' priority='0' mixweight='1'>---</item>
     <item name='send.2/external/source/bang' type='string' priority='0' mixweight='1'>0</item>
@@ -97,12 +97,12 @@
     <item name='speed/allowbangs' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='speed/external/source/bang' type='string' priority='0' mixweight='1'>---</item>
     <item name='speed/external/source/float' type='string' priority='0' mixweight='1'>---</item>
-    <item name='speed/input/clipping' type='array' priority='0' mixweight='1'>0.750000 1.000000 </item>
+    <item name='speed/input/clipping' type='array' priority='0' mixweight='1'>0.000000 1.000000 </item>
     <item name='speed/internal/speed' type='array' priority='0' mixweight='1'>0.000000 0.250000 </item>
     <item name='speed/mode' type='string' priority='0' mixweight='1'>manual</item>
     <item name='speed/output/scaling' type='array' priority='0' mixweight='1'>0.000000 1.000000 </item>
     <item name='speed/smoothing' type='integer' priority='0' mixweight='1'>1</item>
-    <item name='speed/value' type='decimal' priority='0' mixweight='1'>-1.333333</item>
+    <item name='speed/value' type='decimal' priority='0' mixweight='1'>0.000000</item>
     <item name='view/color/border' type='array' priority='0' mixweight='1'>0</item>
     <item name='view/color/contentBackground' type='array' priority='0' mixweight='1'>0</item>
     <item name='view/color/toolbarBackground' type='array' priority='0' mixweight='1'>0</item>
