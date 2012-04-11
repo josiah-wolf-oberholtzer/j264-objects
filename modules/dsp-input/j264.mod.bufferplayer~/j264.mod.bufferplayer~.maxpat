@@ -7,7 +7,7 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 140.0, 110.0, 300.0, 210.0 ],
+		"rect" : [ 185.0, 455.0, 300.0, 210.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 93.0, 44.0, 1645.0, 980.0 ],
@@ -26,6 +26,34 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-53",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 50.0, 635.0, 50.0, 18.0 ],
+					"text" : "note 7"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-41",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 675.0, 715.0, 708.0, 18.0 ],
+					"text" : "\"FredHead:/Users/studiouser/Desktop/project/buffersounds/Crotales Samples/\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -409,13 +437,13 @@
 ,
 					"patching_rect" : [ 875.0, 135.0, 67.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p populate"
@@ -496,7 +524,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 230.0, 150.0, 50.0, 18.0 ],
-					"text" : "note 23"
+					"text" : "note 7"
 				}
 
 			}
@@ -750,13 +778,13 @@
 ,
 					"patching_rect" : [ 630.0, 825.0, 77.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p randomize"
@@ -871,7 +899,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 15.0, 40.0, 439.0, 20.0 ],
+									"patching_rect" : [ 15.0, 40.0, 463.0, 20.0 ],
 									"text" : "jcom.parameter #1/external/source/bang @type string @repetitions/allow 1"
 								}
 
@@ -977,13 +1005,13 @@
 ,
 					"patching_rect" : [ 631.0, 790.0, 148.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p external/source/bang"
@@ -997,7 +1025,7 @@
 					"framecolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"hint" : "External Bang Source",
 					"id" : "obj-67",
-					"items" : "---",
+					"items" : [ "---", ",", "/attack~/attack" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1564,7 +1592,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-29",
-					"items" : [ "---", ",", "Crotales Samples" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2287,13 +2315,13 @@
 ,
 					"patching_rect" : [ 75.0, 185.0, 44.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p note"
@@ -2351,7 +2379,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 75.0, 265.0, 363.0, 20.0 ],
+					"patching_rect" : [ 75.0, 255.0, 363.0, 20.0 ],
 					"text" : "poly~ j264.mod.bufferplayer~.alg.voix 16 @parallel 1 @args #0"
 				}
 
@@ -2614,6 +2642,7 @@
 					"name" : "j264.mod.bufferplayer~.parambp.maxpat",
 					"numinlets" : 9,
 					"numoutlets" : 0,
+					"offset" : [ 0.0, -195.0 ],
 					"patching_rect" : [ 155.0, 410.0, 125.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 150.0, 20.0, 140.0, 189.0 ]
@@ -2670,7 +2699,7 @@
 					"patching_rect" : [ 10.0, 15.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 210.0 ],
-					"text" : "/buffers~"
+					"text" : "/bufferplayer~"
 				}
 
 			}
@@ -2798,6 +2827,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 554.5, 405.0, 164.5, 405.0 ],
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 1 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}
@@ -3443,6 +3481,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 1 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-9", 0 ]
