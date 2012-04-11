@@ -26,6 +26,20 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "reverb~" ],
+					"id" : "obj-6",
+					"maxclass" : "bpatcher",
+					"name" : "j264.mod.reverb~.maxpat",
+					"numinlets" : 9,
+					"numoutlets" : 9,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 470.0, 450.0, 450.0, 210.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 450.0, 210.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "allpass~" ],
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
