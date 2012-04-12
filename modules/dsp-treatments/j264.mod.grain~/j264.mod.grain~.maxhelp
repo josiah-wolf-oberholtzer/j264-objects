@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 216.0, 119.0, 951.0, 830.0 ],
-		"bglocked" : 1,
-		"defrect" : [ 216.0, 119.0, 951.0, 830.0 ],
+		"rect" : [ 282.0, 64.0, 996.0, 1062.0 ],
+		"bglocked" : 0,
+		"defrect" : [ 282.0, 64.0, 996.0, 1062.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -26,28 +26,14 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "reverb~" ],
-					"id" : "obj-6",
-					"maxclass" : "bpatcher",
-					"name" : "j264.mod.reverb~.maxpat",
-					"numinlets" : 9,
-					"numoutlets" : 9,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 470.0, 450.0, 450.0, 210.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 450.0, 210.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"args" : [ "allpass~" ],
-					"id" : "obj-3",
+					"id" : "obj-4",
 					"maxclass" : "bpatcher",
 					"name" : "j264.mod.allpass~.maxpat",
 					"numinlets" : 9,
 					"numoutlets" : 9,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 10.0, 450.0, 450.0, 210.0 ],
+					"patching_rect" : [ 10.0, 445.0, 450.0, 210.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 450.0, 210.0 ]
 				}
 
@@ -55,27 +41,13 @@
 , 			{
 				"box" : 				{
 					"args" : [ "grain~" ],
-					"id" : "obj-13",
+					"id" : "obj-3",
 					"maxclass" : "bpatcher",
 					"name" : "j264.mod.grain~.maxpat",
 					"numinlets" : 9,
 					"numoutlets" : 9,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 10.0, 230.0, 450.0, 210.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 450.0, 210.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [  ],
-					"id" : "obj-1",
-					"maxclass" : "bpatcher",
-					"name" : "j264.mod.sfplay~.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 470.0, 10.0, 450.0, 210.0 ],
+					"patching_rect" : [ 10.0, 225.0, 450.0, 210.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 450.0, 210.0 ]
 				}
 
@@ -83,28 +55,28 @@
 , 			{
 				"box" : 				{
 					"args" : [ "out~" ],
-					"id" : "obj-5",
+					"id" : "obj-2",
 					"maxclass" : "bpatcher",
 					"name" : "j264.mod.out~.maxpat",
 					"numinlets" : 9,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 470.0, 230.0, 450.0, 210.0 ],
+					"patching_rect" : [ 10.0, 665.0, 450.0, 210.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 450.0, 210.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "in~" ],
-					"id" : "obj-2",
+					"args" : [ "sfplay~" ],
+					"id" : "obj-1",
 					"maxclass" : "bpatcher",
-					"name" : "j264.mod.in~.maxpat",
+					"name" : "j264.mod.sfplay~.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 10.0, 300.0, 210.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 210.0 ]
+					"patching_rect" : [ 10.0, 10.0, 450.0, 210.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 450.0, 210.0 ]
 				}
 
 			}
