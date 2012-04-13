@@ -7,7 +7,7 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 225.0, 320.0, 450.0, 210.0 ],
+		"rect" : [ 320.0, 10.0, 450.0, 210.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ -1579.0, 523.0, 623.0, 482.0 ],
@@ -304,8 +304,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 95.0, 375.0, 20.0 ],
-					"text" : "j264.common.module #0 @automate delay.1 delay.2 gain.1 gain.2"
+					"patching_rect" : [ 40.0, 95.0, 465.0, 20.0 ],
+					"text" : "j264.common.module #0 @automate duration.1 duration.2 frequency.1 frequency.2"
 				}
 
 			}
@@ -333,7 +333,7 @@
 					"numoutlets" : 9,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "" ],
 					"patching_rect" : [ 75.0, 185.0, 459.0, 20.0 ],
-					"text" : "j264.moddsp.inwrapper~ #0"
+					"text" : "j264.moddsp.inwrapper~ 3717"
 				}
 
 			}
@@ -380,8 +380,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 295.0, 438.0, 20.0 ],
-					"text" : "j264.tabs main delay.1 delay.2 gain.1 gain.2 sends12 sends34 sends56 sends78"
+					"patching_rect" : [ 75.0, 295.0, 411.0, 20.0 ],
+					"text" : "j264.tabs main dur.1 dur.2 freq.1 freq.2 sends12 sends34 sends56 sends78"
 				}
 
 			}
@@ -571,7 +571,7 @@
 					"patching_rect" : [ 75.0, 325.0, 60.0, 65.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 380.0, 30.0, 60.0, 170.0 ],
-					"tabs" : [ "main", "delay.1", "delay.2", "gain.1", "gain.2", "sends12", "sends34", "sends56", "sends78" ]
+					"tabs" : [ "main", "dur.1", "dur.2", "freq.1", "freq.2", "sends12", "sends34", "sends56", "sends78" ]
 				}
 
 			}
@@ -739,6 +739,7 @@
 					"name" : "j264.mod.grain~.parambp.maxpat",
 					"numinlets" : 9,
 					"numoutlets" : 0,
+					"offset" : [ 0.0, -780.0 ],
 					"patching_rect" : [ 155.0, 360.0, 125.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.0, 20.0, 290.0, 189.0 ]
