@@ -7,7 +7,7 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ -735.0, 318.0, 623.0, 482.0 ],
+		"rect" : [ 140.0, 190.0, 450.0, 210.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ -735.0, 318.0, 623.0, 482.0 ],
@@ -739,6 +739,7 @@
 					"name" : "j264.mod.allpass~.parambp.maxpat",
 					"numinlets" : 9,
 					"numoutlets" : 0,
+					"offset" : [ 0.0, -975.0 ],
 					"patching_rect" : [ 155.0, 360.0, 125.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.0, 20.0, 290.0, 189.0 ]
@@ -795,7 +796,7 @@
 					"patching_rect" : [ 10.0, 15.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 450.0, 210.0 ],
-					"text" : "/editing_this_module"
+					"text" : "/allpass~"
 				}
 
 			}
