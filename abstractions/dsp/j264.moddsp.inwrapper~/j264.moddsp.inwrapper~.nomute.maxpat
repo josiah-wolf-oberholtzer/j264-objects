@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 187.0, 90.0, 1183.0, 266.0 ],
+		"rect" : [ 162.0, 149.0, 1183.0, 266.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 187.0, 90.0, 1183.0, 266.0 ],
+		"defrect" : [ 162.0, 149.0, 1183.0, 266.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1030.0, 10.0, 92.0, 20.0 ],
-					"presentation_rect" : [ 1090.0, 20.0, 0.0, 0.0 ],
 					"text" : "MUTE ADSR"
 				}
 
@@ -71,8 +70,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1005.0, 225.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 1066.0, 341.0, 0.0, 0.0 ]
+					"patching_rect" : [ 1005.0, 225.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -84,8 +82,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1005.0, 10.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 1066.0, 21.0, 0.0, 0.0 ]
+					"patching_rect" : [ 1005.0, 10.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -427,13 +424,13 @@
 ,
 					"patching_rect" : [ 10.0, 165.0, 101.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : ""
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p for-input-limiter"
@@ -613,13 +610,13 @@
 ,
 					"patching_rect" : [ 25.0, 100.0, 98.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : ""
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p for-input-mixer"
