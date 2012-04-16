@@ -7,10 +7,10 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 185.0, 455.0, 300.0, 210.0 ],
+		"rect" : [ 175.0, 195.0, 300.0, 210.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 93.0, 44.0, 1645.0, 980.0 ],
+		"defrect" : [ 37.0, 44.0, 1645.0, 980.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -435,15 +435,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 875.0, 135.0, 67.0, 20.0 ],
+					"patching_rect" : [ 875.0, 140.0, 67.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p populate"
@@ -778,13 +778,13 @@
 ,
 					"patching_rect" : [ 630.0, 825.0, 77.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p randomize"
@@ -825,6 +825,7 @@
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -900,7 +901,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 15.0, 40.0, 463.0, 20.0 ],
-									"text" : "jcom.parameter #1/external/source/bang @type string @repetitions/allow 1"
+									"text" : "jcom.parameter external/source/bang @type string @repetitions/allow 1"
 								}
 
 							}
@@ -1005,13 +1006,13 @@
 ,
 					"patching_rect" : [ 631.0, 790.0, 148.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p external/source/bang"
@@ -1025,7 +1026,7 @@
 					"framecolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"hint" : "External Bang Source",
 					"id" : "obj-67",
-					"items" : [ "---", ",", "/attack~/attack" ],
+					"items" : "---",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1497,7 +1498,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 745.0, 200.0, 120.0, 75.0 ],
+					"patching_rect" : [ 715.0, 135.0, 120.0, 75.0 ],
 					"text" : "jcom.parameter projectpath @type string @repetitions/allow 0 @priority 1"
 				}
 
@@ -1592,7 +1593,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-29",
-					"items" : "<empty>",
+					"items" : [ "---", ",", "buffers-001", ",", "buffers-004", ",", "buffers-098", ",", "buffers-111" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2315,13 +2316,13 @@
 ,
 					"patching_rect" : [ 75.0, 185.0, 44.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p note"
@@ -2349,8 +2350,8 @@
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "signal" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "signal", "" ],
 					"patching_rect" : [ 545.0, 260.0, 70.0, 20.0 ],
 					"text" : "j264.mute~"
 				}
@@ -2699,7 +2700,7 @@
 					"patching_rect" : [ 10.0, 15.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 210.0 ],
-					"text" : "/bufferplayer~"
+					"text" : "/buffers~"
 				}
 
 			}
@@ -2879,7 +2880,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 580.0, 282.0, 554.5, 282.0 ],
+					"midpoints" : [ 571.5, 282.0, 554.5, 282.0 ],
 					"source" : [ "obj-17", 1 ]
 				}
 
@@ -2994,19 +2995,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-112", 0 ],
+					"destination" : [ "obj-27", 0 ],
 					"hidden" : 0,
-					"midpoints" : [  ],
+					"midpoints" : [ 884.5, 125.0, 724.5, 125.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
+					"destination" : [ "obj-112", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 884.5, 125.0, 754.5, 125.0 ],
-					"source" : [ "obj-26", 0 ]
+					"midpoints" : [ 775.0, 219.0, 848.0, 219.0, 848.0, 133.0, 884.5, 133.0 ],
+					"source" : [ "obj-27", 1 ]
 				}
 
 			}
@@ -3014,7 +3015,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-94", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 805.0, 285.0, 754.5, 285.0 ],
+					"midpoints" : [ 775.0, 285.0, 754.5, 285.0 ],
 					"source" : [ "obj-27", 1 ]
 				}
 
