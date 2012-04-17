@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 312.0, 70.0, 1101.0, 973.0 ],
+		"rect" : [ -1137.0, 137.0, 1101.0, 973.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 312.0, 70.0, 1101.0, 973.0 ],
+		"defrect" : [ -1137.0, 137.0, 1101.0, 973.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -285,8 +285,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 605.0, 150.0, 89.0, 20.0 ],
-					"text" : "slide~ 512 512"
+					"patching_rect" : [ 605.0, 150.0, 96.0, 20.0 ],
+					"text" : "slide~ 256 4096"
 				}
 
 			}
@@ -299,8 +299,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 605.0, 175.0, 90.0, 20.0 ],
-					"text" : "snapshot~ 100"
+					"patching_rect" : [ 605.0, 175.0, 83.0, 20.0 ],
+					"text" : "snapshot~ 30"
 				}
 
 			}
@@ -813,15 +813,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
-					"hidden" : 0,
-					"midpoints" : [ 124.5, 143.0, 614.5, 143.0 ],
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
@@ -832,6 +823,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-17", 0 ]
