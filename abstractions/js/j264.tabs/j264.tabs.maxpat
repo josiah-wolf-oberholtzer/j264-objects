@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 238.0, 44.0, 505.0, 197.0 ],
+		"rect" : [ 238.0, 44.0, 760.0, 222.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 238.0, 44.0, 505.0, 197.0 ],
+		"defrect" : [ 238.0, 44.0, 760.0, 222.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -76,8 +76,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 145.0, 125.0, 337.0, 34.0 ],
-					"text" : "jcom.message page @type integer @range/bounds 0 1 @range/clipmode both @repetitions/allow 1"
+					"patching_rect" : [ 145.0, 125.0, 544.0, 34.0 ],
+					"text" : "jcom.message page @type integer @range/bounds 0 1 @range/clipmode both @repetitions/allow 1 @value/default 0"
 				}
 
 			}
@@ -157,7 +157,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 313.5, 165.5, 19.5, 165.5 ],
+					"midpoints" : [ 417.0, 165.5, 19.5, 165.5 ],
 					"source" : [ "obj-13", 1 ]
 				}
 
