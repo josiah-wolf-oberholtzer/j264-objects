@@ -7,10 +7,10 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 10.0, 230.0, 300.0, 210.0 ],
+		"rect" : [ 265.0, 44.0, 1300.0, 985.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 1,
-		"defrect" : [ 393.0, 44.0, 1300.0, 985.0 ],
+		"defrect" : [ 265.0, 44.0, 1300.0, 985.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -874,7 +874,7 @@
 					"patching_rect" : [ 10.0, 10.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 210.0 ],
-					"text" : "/attack~"
+					"text" : "/editing_this_module"
 				}
 
 			}
