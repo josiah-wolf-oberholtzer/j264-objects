@@ -7,10 +7,10 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 320.0, 10.0, 450.0, 210.0 ],
+		"rect" : [ 0.0, 222.0, 623.0, 482.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ -1579.0, 523.0, 623.0, 482.0 ],
+		"defrect" : [ 0.0, 222.0, 623.0, 482.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -62,8 +62,8 @@
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "signal" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "signal", "" ],
 					"patching_rect" : [ 545.0, 210.0, 70.0, 20.0 ],
 					"text" : "j264.mute~"
 				}
@@ -333,7 +333,7 @@
 					"numoutlets" : 9,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "" ],
 					"patching_rect" : [ 75.0, 185.0, 459.0, 20.0 ],
-					"text" : "j264.moddsp.inwrapper~ 3717"
+					"text" : "j264.moddsp.inwrapper~ #0"
 				}
 
 			}
@@ -739,7 +739,6 @@
 					"name" : "j264.mod.grain~.parambp.maxpat",
 					"numinlets" : 9,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, -780.0 ],
 					"patching_rect" : [ 155.0, 360.0, 125.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.0, 20.0, 290.0, 189.0 ]
@@ -796,7 +795,7 @@
 					"patching_rect" : [ 10.0, 15.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 450.0, 210.0 ],
-					"text" : "/grain~"
+					"text" : "/editing_this_module"
 				}
 
 			}
@@ -1048,7 +1047,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 580.0, 232.0, 554.5, 232.0 ],
+					"midpoints" : [ 571.5, 232.0, 554.5, 232.0 ],
 					"source" : [ "obj-17", 1 ]
 				}
 
