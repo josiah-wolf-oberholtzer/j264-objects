@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ -1664.0, 265.0, 1270.0, 777.0 ],
+		"rect" : [ -1600.0, 265.0, 1270.0, 777.0 ],
 		"bglocked" : 0,
-		"defrect" : [ -1664.0, 265.0, 1270.0, 777.0 ],
+		"defrect" : [ -1600.0, 265.0, 1270.0, 777.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,12 +29,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-2",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 115.0, 155.0, 50.0, 18.0 ],
-					"text" : "/gain 1."
+					"patching_rect" : [ 115.0, 155.0, 50.0, 46.0 ],
+					"text" : "/send.7/destination ---"
 				}
 
 			}
@@ -170,7 +171,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 650.0, 445.0, 37.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+
 					}
 ,
 					"text" : "out 1"
@@ -188,7 +189,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 655.0, 155.0, 30.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+
 					}
 ,
 					"text" : "in 1"
