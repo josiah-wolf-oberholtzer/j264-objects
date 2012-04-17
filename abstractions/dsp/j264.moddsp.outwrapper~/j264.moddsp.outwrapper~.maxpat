@@ -247,13 +247,13 @@
 ,
 					"patching_rect" : [ 10.0, 185.0, 108.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"fontname" : "Arial"
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p for-output-limiter"
@@ -304,7 +304,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 30.0, 200.0, 105.0, 18.0 ],
-									"text" : "STEREO"
+									"text" : "QUAD"
 								}
 
 							}
@@ -557,13 +557,13 @@
 ,
 					"patching_rect" : [ 25.0, 115.0, 105.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"fontname" : "Arial"
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p for-output-mixer"
@@ -577,8 +577,8 @@
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "signal" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "signal", "" ],
 					"patching_rect" : [ 850.0, 85.0, 129.0, 20.0 ],
 					"text" : "j264.mute~"
 				}
@@ -595,21 +595,6 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 850.0, 55.0, 164.0, 20.0 ],
 					"text" : "jcom.oscroute /mute /iosetup"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.047059, 0.913725, 0.913725, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-29",
-					"maxclass" : "newobj",
-					"numinlets" : 9,
-					"numoutlets" : 9,
-					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 155.0, 225.0, 579.0, 20.0 ],
-					"text" : "poly~ j264.polyassist~.Nwise.maxpat 1 args j264.limiter~.voix @parallel 0"
 				}
 
 			}
@@ -931,82 +916,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 7 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-27", 7 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-29", 6 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-27", 6 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-29", 5 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-27", 5 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-29", 4 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-27", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-29", 3 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-27", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-29", 2 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-27", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-29", 1 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-27", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-27", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-30", 7 ],
 					"hidden" : 0,
 					"midpoints" : [ 654.5, 280.0, 790.75, 280.0 ],
-					"source" : [ "obj-29", 7 ]
+					"source" : [ "obj-27", 7 ]
 				}
 
 			}
@@ -1015,7 +928,7 @@
 					"destination" : [ "obj-30", 6 ],
 					"hidden" : 0,
 					"midpoints" : [ 584.5, 285.0, 777.0, 285.0 ],
-					"source" : [ "obj-29", 6 ]
+					"source" : [ "obj-27", 6 ]
 				}
 
 			}
@@ -1024,7 +937,7 @@
 					"destination" : [ "obj-30", 5 ],
 					"hidden" : 0,
 					"midpoints" : [ 514.5, 290.0, 763.25, 290.0 ],
-					"source" : [ "obj-29", 5 ]
+					"source" : [ "obj-27", 5 ]
 				}
 
 			}
@@ -1033,7 +946,7 @@
 					"destination" : [ "obj-30", 4 ],
 					"hidden" : 0,
 					"midpoints" : [ 444.5, 295.0, 749.5, 295.0 ],
-					"source" : [ "obj-29", 4 ]
+					"source" : [ "obj-27", 4 ]
 				}
 
 			}
@@ -1042,7 +955,7 @@
 					"destination" : [ "obj-30", 3 ],
 					"hidden" : 0,
 					"midpoints" : [ 374.5, 300.0, 735.75, 300.0 ],
-					"source" : [ "obj-29", 3 ]
+					"source" : [ "obj-27", 3 ]
 				}
 
 			}
@@ -1051,7 +964,7 @@
 					"destination" : [ "obj-30", 2 ],
 					"hidden" : 0,
 					"midpoints" : [ 304.5, 305.0, 722.0, 305.0 ],
-					"source" : [ "obj-29", 2 ]
+					"source" : [ "obj-27", 2 ]
 				}
 
 			}
@@ -1060,7 +973,7 @@
 					"destination" : [ "obj-30", 1 ],
 					"hidden" : 0,
 					"midpoints" : [ 234.5, 310.0, 708.25, 310.0 ],
-					"source" : [ "obj-29", 1 ]
+					"source" : [ "obj-27", 1 ]
 				}
 
 			}
@@ -1069,7 +982,7 @@
 					"destination" : [ "obj-30", 0 ],
 					"hidden" : 0,
 					"midpoints" : [ 164.5, 315.0, 694.5, 315.0 ],
-					"source" : [ "obj-29", 0 ]
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -1114,18 +1027,8 @@
 				"patchline" : 				{
 					"destination" : [ "obj-27", 9 ],
 					"hidden" : 0,
-					"midpoints" : [ 969.5, 147.0, 794.5, 147.0 ],
+					"midpoints" : [ 932.833313, 147.0, 794.5, 147.0 ],
 					"source" : [ "obj-32", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.047059, 0.913725, 0.913725, 1.0 ],
-					"destination" : [ "obj-29", 0 ],
-					"hidden" : 0,
-					"midpoints" : [ 859.5, 210.0, 164.5, 210.0 ],
-					"source" : [ "obj-32", 0 ]
 				}
 
 			}
@@ -1144,15 +1047,6 @@
 					"hidden" : 0,
 					"midpoints" : [ 34.5, 145.0, 724.5, 145.0 ],
 					"source" : [ "obj-42", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"hidden" : 0,
-					"midpoints" : [ 19.5, 210.0, 164.5, 210.0 ],
-					"source" : [ "obj-65", 0 ]
 				}
 
 			}
