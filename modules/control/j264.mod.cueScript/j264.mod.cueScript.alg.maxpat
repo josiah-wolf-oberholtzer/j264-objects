@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ -1009.0, 269.0, 782.0, 674.0 ],
+		"rect" : [ 0.0, 269.0, 1014.0, 794.0 ],
 		"bglocked" : 0,
-		"defrect" : [ -1009.0, 269.0, 782.0, 674.0 ],
+		"defrect" : [ 0.0, 269.0, 1014.0, 794.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,12 +28,27 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 425.0, 450.0, 21.0, 19.0 ],
+					"text" : "t l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
 					"id" : "obj-28",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 95.0, 450.0, 251.0, 17.0 ]
+					"patching_rect" : [ 95.0, 450.0, 251.0, 17.0 ],
+					"text" : "/Users/studiouser/Desktop/ataraxia"
 				}
 
 			}
@@ -367,13 +382,13 @@
 ,
 					"patching_rect" : [ 596.0, 93.0, 67.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p edit_with"
@@ -512,13 +527,13 @@
 ,
 					"patching_rect" : [ 329.0, 107.0, 43.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"fontname" : "Verdana",
+						"default_fontname" : "Verdana",
 						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana"
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p view"
@@ -559,7 +574,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 583.0, 459.0, 207.0, 31.0 ],
+					"patching_rect" : [ 715.0, 430.0, 207.0, 31.0 ],
 					"text" : "<- events are sent remotely to the target parameter in the target module."
 				}
 
@@ -573,7 +588,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 420.0, 440.0, 182.0, 19.0 ],
+					"patching_rect" : [ 420.0, 500.0, 182.0, 19.0 ],
 					"text" : "jcom.send jcom.remote.module.to"
 				}
 
@@ -745,13 +760,13 @@
 ,
 									"patching_rect" : [ 50.0, 119.0, 77.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"fontname" : "Verdana",
+										"default_fontname" : "Verdana",
 										"default_fontsize" : 10.0,
 										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 10.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Verdana"
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p syncWithUI"
@@ -978,13 +993,13 @@
 ,
 									"patching_rect" : [ 214.0, 66.0, 70.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"fontname" : "Verdana",
+										"default_fontname" : "Verdana",
 										"default_fontsize" : 10.0,
 										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 10.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Verdana"
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p cue_menu"
@@ -1419,13 +1434,13 @@
 ,
 					"patching_rect" : [ 420.0, 190.0, 76.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"fontname" : "Verdana",
+						"default_fontname" : "Verdana",
 						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana"
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p trigger_cue"
@@ -1442,7 +1457,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 389.0, 491.0, 262.0, 67.0 ],
+					"patching_rect" : [ 385.0, 605.0, 262.0, 67.0 ],
 					"text" : "jcom.return cues @type string @description \"When a new cue script is loaded, all cues are dumped one ata time. The symbols ---START and ---END indicates the start and end of the list of cues.\" @repetitions/allow 1"
 				}
 
@@ -2491,13 +2506,13 @@
 ,
 					"patching_rect" : [ 342.0, 338.0, 66.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"fontname" : "Verdana",
+						"default_fontname" : "Verdana",
 						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana"
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p find_cues"
@@ -2933,13 +2948,13 @@
 ,
 					"patching_rect" : [ 420.0, 340.0, 64.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"fontname" : "Verdana",
+						"default_fontname" : "Verdana",
 						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana"
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p cue_gate"
@@ -3270,13 +3285,13 @@
 ,
 					"patching_rect" : [ 420.0, 370.0, 112.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"fontname" : "Verdana",
+						"default_fontname" : "Verdana",
 						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana"
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p WAIT_or_pass_on"
@@ -3908,13 +3923,13 @@
 ,
 									"patching_rect" : [ 140.0, 150.0, 132.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"fontname" : "Verdana",
+										"default_fontname" : "Verdana",
 										"default_fontsize" : 10.0,
 										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 10.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Verdana"
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p get_parameter_values"
@@ -4366,13 +4381,13 @@
 ,
 									"patching_rect" : [ 140.0, 120.0, 139.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"fontname" : "Verdana",
+										"default_fontname" : "Verdana",
 										"default_fontsize" : 10.0,
 										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 10.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Verdana"
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p get_names_of_modules"
@@ -4460,13 +4475,13 @@
 ,
 					"patching_rect" : [ 240.0, 106.0, 66.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"fontname" : "Verdana",
+						"default_fontname" : "Verdana",
 						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana"
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p get_state"
@@ -4703,6 +4718,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"hidden" : 0,
 					"midpoints" : [ 159.5, 399.0, 429.5, 399.0 ],
@@ -4712,7 +4736,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-20", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-22", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-22", 0 ]
