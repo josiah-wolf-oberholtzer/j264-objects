@@ -7,11 +7,12 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 165.0, 44.0, 1380.0, 980.0 ],
+		"rect" : [ 1265.0, 525.0, 300.0, 140.0 ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 165.0, 44.0, 1380.0, 980.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -50,7 +51,7 @@
 					"patching_rect" : [ 625.0, 500.0, 210.0, 90.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 25.0, 290.0, 85.0 ],
-					"text" : "00:01"
+					"text" : "00:00"
 				}
 
 			}
@@ -150,7 +151,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 845.0, 285.0, 50.0, 20.0 ],
+					"patching_rect" : [ 1045.0, 285.0, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 255.0, 115.0, 40.0, 20.0 ],
 					"text" : "reset"
@@ -179,8 +180,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 625.0, 310.0, 207.0, 20.0 ],
-					"text" : "jcom.message active @type boolean"
+					"patching_rect" : [ 625.0, 310.0, 418.0, 20.0 ],
+					"text" : "jcom.parameter active @type boolean @repetitions/allow 1 @value/default 0"
 				}
 
 			}
@@ -221,7 +222,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 845.0, 340.0, 24.0, 20.0 ],
+					"patching_rect" : [ 1045.0, 340.0, 24.0, 20.0 ],
 					"text" : "t 0"
 				}
 
@@ -335,7 +336,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
-					"text" : "/Jamoma"
+					"text" : "/clock"
 				}
 
 			}
@@ -371,8 +372,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 845.0, 310.0, 186.0, 20.0 ],
-					"text" : "jcom.message reset @type none"
+					"patching_rect" : [ 1045.0, 310.0, 301.0, 20.0 ],
+					"text" : "jcom.message reset @type none @repetitions/allow 1"
 				}
 
 			}
@@ -458,7 +459,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-19", 3 ],
 					"hidden" : 0,
-					"midpoints" : [ 854.5, 370.0, 695.25, 370.0 ],
+					"midpoints" : [ 1054.5, 370.0, 695.25, 370.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -485,7 +486,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 938.0, 335.0, 854.5, 335.0 ],
+					"midpoints" : [ 1195.5, 335.0, 1054.5, 335.0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -494,7 +495,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 728.5, 340.0, 634.5, 340.0 ],
+					"midpoints" : [ 834.0, 340.0, 634.5, 340.0 ],
 					"source" : [ "obj-24", 1 ]
 				}
 
@@ -503,7 +504,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 634.5, 336.0, 620.0, 336.0, 620.0, 280.0, 634.5, 280.0 ],
+					"midpoints" : [ 634.5, 335.0, 618.0, 335.0, 618.0, 277.0, 634.5, 277.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
