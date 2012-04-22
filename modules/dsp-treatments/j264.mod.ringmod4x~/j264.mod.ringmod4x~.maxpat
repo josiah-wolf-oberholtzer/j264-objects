@@ -7,7 +7,7 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 320.0, 230.0, 450.0, 210.0 ],
+		"rect" : [ 225.0, 235.0, 450.0, 210.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ -735.0, 318.0, 623.0, 482.0 ],
@@ -304,8 +304,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 95.0, 375.0, 20.0 ],
-					"text" : "j264.common.module #0 @automate delay.1 delay.2 gain.1 gain.2"
+					"patching_rect" : [ 40.0, 95.0, 155.0, 20.0 ],
+					"text" : "j264.common.module #0 "
 				}
 
 			}
@@ -571,7 +571,7 @@
 					"patching_rect" : [ 75.0, 325.0, 60.0, 65.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 380.0, 30.0, 60.0, 170.0 ],
-					"tabs" : [ "main", "delay.1", "delay.2", "gain.1", "gain.2", "sends12", "sends34", "sends56", "sends78" ]
+					"tabs" : [ "main", "sends12", "sends34", "sends56", "sends78" ]
 				}
 
 			}
@@ -726,7 +726,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 9,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 155.0, 325.0, 125.0, 20.0 ],
+					"patching_rect" : [ 155.0, 330.0, 125.0, 20.0 ],
 					"text" : "j264.io9 #0-output"
 				}
 
@@ -795,7 +795,7 @@
 					"patching_rect" : [ 10.0, 15.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 450.0, 210.0 ],
-					"text" : "/ringmod4x~"
+					"text" : "/ringmod~"
 				}
 
 			}
@@ -1031,15 +1031,6 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
-					"hidden" : 0,
-					"midpoints" : [ 554.5, 355.0, 164.5, 355.0 ],
-					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -1319,15 +1310,6 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-44", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-35", 8 ],
-					"hidden" : 0,
-					"midpoints" : [ 84.5, 425.0, 143.0, 425.0, 143.0, 350.0, 270.5, 350.0 ],
-					"source" : [ "obj-45", 0 ]
 				}
 
 			}
