@@ -7,10 +7,10 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 200.0, 320.0, 450.0, 210.0 ],
+		"rect" : [ 960.0, 445.0, 450.0, 210.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 433.0, 100.0, 981.0, 743.0 ],
+		"defrect" : [ 399.0, 169.0, 981.0, 743.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -809,6 +809,7 @@
 					"name" : "j264.mod.specdelay~.parambp.maxpat",
 					"numinlets" : 9,
 					"numoutlets" : 1,
+					"offset" : [ 0.0, -195.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 155.0, 360.0, 124.0, 45.0 ],
 					"presentation" : 1,
@@ -866,7 +867,7 @@
 					"patching_rect" : [ 10.0, 15.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 450.0, 210.0 ],
-					"text" : "/specdelay~"
+					"text" : "/j264.mod.specdelay~"
 				}
 
 			}
