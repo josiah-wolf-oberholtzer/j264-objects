@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ -1005.0, 212.0, 1371.0, 915.0 ],
+		"rect" : [ 564.0, 209.0, 1371.0, 915.0 ],
 		"bglocked" : 0,
-		"defrect" : [ -1005.0, 212.0, 1371.0, 915.0 ],
+		"defrect" : [ 564.0, 209.0, 1371.0, 915.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -75,7 +75,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 510.0, 190.0, 121.0, 89.0 ],
-					"text" : "jit.graph @mode 3 @height #2 @rangelo 0 @rangehi 20 @brgb 255 255 255 @frgb 255 223 233 255"
+					"text" : "jit.graph @mode 3 @height #2 @rangelo 0 @rangehi 1 @brgb 255 255 255 @frgb 255 223 233 255"
 				}
 
 			}
@@ -105,7 +105,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 385.0, 190.0, 121.0, 89.0 ],
-					"text" : "jit.graph @mode 3 @height #2 @rangelo 0 @rangehi 20 @brgb 255 255 255 @frgb 73 47 255 255"
+					"text" : "jit.graph @mode 3 @height #2 @rangelo 0 @rangehi 1 @brgb 255 255 255 @frgb 73 47 255 255"
 				}
 
 			}
@@ -204,7 +204,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 135.0, 190.0, 121.0, 89.0 ],
-					"text" : "jit.graph @mode 1 @height #2 @rangelo 0 @rangehi 20 @brgb 255 255 255 @frgb 255 56 188 255"
+					"text" : "jit.graph @mode 1 @height #2 @rangelo 0 @rangehi 1 @brgb 255 255 255 @frgb 255 56 188 255"
 				}
 
 			}
@@ -273,7 +273,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 10.0, 190.0, 120.0, 89.0 ],
-					"text" : "jit.graph @mode 1 @height #2 @rangelo 0 @rangehi 20 @frgb 255 0 0 0 @brgb 255 255 255"
+					"text" : "jit.graph @mode 1 @height #2 @rangelo 0 @rangehi 1 @frgb 255 0 0 0 @brgb 255 255 255"
 				}
 
 			}

@@ -7,10 +7,10 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 10.0, 230.0, 300.0, 210.0 ],
+		"rect" : [ 10.0, 670.0, 300.0, 210.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 1,
-		"defrect" : [ 1004.0, 44.0, 1300.0, 985.0 ],
+		"defrect" : [ 241.0, 44.0, 1300.0, 985.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -34,7 +34,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 720.0, 650.0, 95.0, 20.0 ],
-					"presentation_rect" : [ 720.0, 649.0, 0.0, 0.0 ],
 					"text" : "PREGAIN"
 				}
 
@@ -513,7 +512,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 75.0, 260.0, 290.0, 130.0 ],
+					"patching_rect" : [ 75.0, 260.0, 235.0, 106.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 25.0, 235.0, 106.0 ]
 				}
@@ -529,7 +528,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 75.0, 230.0, 239.0, 20.0 ],
-					"text" : "j264.mod.attack~.grapher 290 106"
+					"text" : "j264.mod.attack~.grapher 235 106"
 				}
 
 			}
@@ -1104,7 +1103,7 @@
 					"patching_rect" : [ 10.0, 10.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 210.0 ],
-					"text" : "/prcenv~"
+					"text" : "/voxenv~"
 				}
 
 			}
