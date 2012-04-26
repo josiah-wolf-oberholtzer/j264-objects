@@ -7,7 +7,7 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 42.0, 44.0, 796.0, 528.0 ],
+		"rect" : [ 495.0, 675.0, 450.0, 210.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 42.0, 44.0, 796.0, 528.0 ],
@@ -29,6 +29,19 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-73",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 155.0, 495.0, 142.0, 20.0 ],
+					"text" : "s #0-from-algorithm"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -46,8 +59,8 @@
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "signal" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "signal", "" ],
 					"patching_rect" : [ 600.0, 180.0, 70.0, 20.0 ],
 					"text" : "j264.mute~"
 				}
@@ -285,10 +298,10 @@
 					"fontsize" : 12.0,
 					"id" : "obj-5",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 90.0, 153.0, 20.0 ],
+					"patching_rect" : [ 40.0, 90.0, 160.0, 20.0 ],
 					"text" : "j264.common.module #0"
 				}
 
@@ -524,7 +537,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 9,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 75.0, 285.0, 123.0, 20.0 ],
+					"patching_rect" : [ 75.0, 285.0, 125.0, 20.0 ],
 					"text" : "j264.io9 #0-output"
 				}
 
@@ -722,7 +735,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "j264.mod.autopanner~.parambp.maxpat",
 					"numinlets" : 9,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 155.0, 445.0, 125.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.0, 20.0, 290.0, 189.0 ]
@@ -779,7 +793,7 @@
 					"patching_rect" : [ 10.0, 10.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 450.0, 210.0 ],
-					"text" : "/editing_this_module"
+					"text" : "/panner~"
 				}
 
 			}
@@ -1022,7 +1036,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 635.0, 202.0, 609.5, 202.0 ],
+					"midpoints" : [ 626.5, 202.0, 609.5, 202.0 ],
 					"source" : [ "obj-13", 1 ]
 				}
 
@@ -1141,6 +1155,15 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-34", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-73", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}
