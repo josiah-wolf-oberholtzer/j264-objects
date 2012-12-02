@@ -7,10 +7,10 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 320.0, 10.0, 450.0, 210.0 ],
+		"rect" : [ 60.0, 285.0, 450.0, 210.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 0.0, 222.0, 623.0, 482.0 ],
+		"defrect" : [ 0.0, 44.0, 1565.0, 1130.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -300,12 +300,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-5",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 95.0, 465.0, 20.0 ],
-					"text" : "j264.common.module #0 @automate duration.1 duration.2 frequency.1 frequency.2"
+					"patching_rect" : [ 40.0, 95.0, 466.0, 34.0 ],
+					"text" : "j264.common.module #0 @automate duration.1 duration.2 frequency.1 frequency.2 speed.1 speed.2"
 				}
 
 			}
@@ -376,12 +377,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-44",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 295.0, 411.0, 20.0 ],
-					"text" : "j264.tabs main dur.1 dur.2 freq.1 freq.2 sends12 sends34 sends56 sends78"
+					"patching_rect" : [ 75.0, 295.0, 411.0, 34.0 ],
+					"text" : "j264.tabs main dur.1 dur.2 freq.1 freq.2 speed.1 speed.2 sends12 sends34 sends56 sends78"
 				}
 
 			}
@@ -571,7 +573,7 @@
 					"patching_rect" : [ 75.0, 325.0, 60.0, 65.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 380.0, 30.0, 60.0, 170.0 ],
-					"tabs" : [ "main", "dur.1", "dur.2", "freq.1", "freq.2", "sends12", "sends34", "sends56", "sends78" ]
+					"tabs" : [ "main", "dur.1", "dur.2", "freq.1", "freq.2", "speed.1", "speed.2", "sends12", "sends34", "sends56", "sends78" ]
 				}
 
 			}
@@ -739,6 +741,7 @@
 					"name" : "j264.mod.grain~.parambp.maxpat",
 					"numinlets" : 9,
 					"numoutlets" : 0,
+					"offset" : [ 0.0, -1170.0 ],
 					"patching_rect" : [ 155.0, 360.0, 125.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.0, 20.0, 290.0, 189.0 ]
@@ -795,7 +798,21 @@
 					"patching_rect" : [ 10.0, 15.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 450.0, 210.0 ],
-					"text" : "/grain~"
+					"text" : "/j264.mod.grain~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-20",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 508.0, 120.0, 118.0, 18.0 ],
+					"text" : "refreshSubscriptions"
 				}
 
 			}
@@ -1094,6 +1111,15 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
