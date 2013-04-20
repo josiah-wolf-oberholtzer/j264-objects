@@ -2,15 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 5,
+			"major" : 6,
 			"minor" : 1,
-			"revision" : 9
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 4.0, 44.0, 1020.0, 530.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 4.0, 44.0, 1020.0, 530.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -18,13 +17,31 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 5.0, 5.0 ],
 		"gridsnaponopen" : 0,
+		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 40.0, 415.0, 56.0, 20.0 ],
+					"text" : "jcom.in~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -60,8 +77,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 10.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 51.0, 13.0, 0.0, 0.0 ]
+					"patching_rect" : [ 10.0, 10.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -89,7 +105,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 300.0, 10.0, 74.0, 20.0 ],
-					"presentation_rect" : [ 344.0, 14.0, 0.0, 0.0 ],
 					"text" : "patcherargs"
 				}
 
@@ -245,6 +260,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 69.5, 220.0, 49.5, 220.0 ],
 					"source" : [ "obj-2", 0 ]
@@ -254,6 +270,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 134.5, 190.0, 49.5, 190.0 ],
 					"source" : [ "obj-22", 0 ]
@@ -263,8 +280,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -272,8 +289,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -281,8 +298,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-42", 1 ]
 				}
 
@@ -290,8 +307,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-42", 2 ]
 				}
 
@@ -299,8 +316,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -308,6 +325,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 69.5, 255.0, 49.5, 255.0 ],
 					"source" : [ "obj-47", 0 ]
@@ -317,6 +335,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-49", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 364.5, 260.0, 69.5, 260.0 ],
 					"source" : [ "obj-48", 1 ]
@@ -326,6 +345,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 69.5, 290.0, 49.5, 290.0 ],
 					"source" : [ "obj-49", 0 ]
@@ -335,6 +355,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 19.5, 225.0, 69.5, 225.0 ],
 					"source" : [ "obj-50", 0 ]
@@ -344,6 +365,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 69.5, 320.0, 49.5, 320.0 ],
 					"source" : [ "obj-51", 0 ]
@@ -353,6 +375,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 69.5, 350.0, 49.5, 350.0 ],
 					"source" : [ "obj-52", 0 ]
@@ -362,6 +385,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 69.5, 380.0, 49.5, 380.0 ],
 					"source" : [ "obj-73", 0 ]
@@ -371,11 +395,167 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 69.5, 110.0, 49.5, 110.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j264.common.module.default.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Freelance/aninwardflow/library/j264-objects/abstractions/common/j264.common.module",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.getParameterNames.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getParameterNames",
+				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getParameterNames",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j264.common.module.postinit.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Freelance/aninwardflow/library/j264-objects/abstractions/common/j264.common.module",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j264.common.module.projectpath.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Freelance/aninwardflow/library/j264-objects/abstractions/common/j264.common.module",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j264.v.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Freelance/aninwardflow/library/j264-objects/abstractions/utility/j264.v",
+				"patcherrelativepath" : "../../utility/j264.v",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j264.presetxml.js",
+				"bootpath" : "/Users/josiah/Documents/Freelance/aninwardflow/library/j264-objects/abstractions/js/j264.presetxml",
+				"patcherrelativepath" : "../../js/j264.presetxml",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j264.common.module.discover.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Freelance/aninwardflow/library/j264-objects/abstractions/common/j264.common.module",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j264.pu.returns.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Freelance/aninwardflow/library/j264-objects/abstractions/pu/pseudomodules/j264.pu.returns",
+				"patcherrelativepath" : "../../pu/pseudomodules/j264.pu.returns",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.getModuleNames.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getModuleNames",
+				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getModuleNames",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.getReturnNames.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getReturnNames",
+				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getReturnNames",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.getOneAttribute.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
+				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j264.common.module.init.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Freelance/aninwardflow/library/j264-objects/abstractions/common/j264.common.module",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j264.common.module.transport.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Freelance/aninwardflow/library/j264-objects/abstractions/common/j264.common.module",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j264.common.module.console.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Freelance/aninwardflow/library/j264-objects/abstractions/common/j264.common.module",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j264.common.module.reportclicked.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Freelance/aninwardflow/library/j264-objects/abstractions/common/j264.common.module",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j264.common.module.automate.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Freelance/aninwardflow/library/j264-objects/abstractions/common/j264.common.module",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j264.common.module.namedsend.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Freelance/aninwardflow/library/j264-objects/abstractions/common/j264.common.module",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j264.common.module.fadeout.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Freelance/aninwardflow/library/j264-objects/abstractions/common/j264.common.module",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.loader.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.loader.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.oscroute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.init.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.in~.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
