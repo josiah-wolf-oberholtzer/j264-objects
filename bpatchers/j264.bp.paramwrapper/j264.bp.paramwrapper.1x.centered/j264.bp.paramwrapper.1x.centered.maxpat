@@ -1134,7 +1134,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 10.0, 100.0, 250.0, 48.0 ],
+									"patching_rect" : [ 10.0, 100.0, 250.0, 47.0 ],
 									"text" : "jcom.parameter #1/value @type decimal @range/clipmode both @range/bounds 0. 1. @repetitions/allow 1 @ramp/drive scheduler"
 								}
 
@@ -5631,8 +5631,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 10.0, 40.0, 470.0, 20.0 ],
-									"text" : "jcom.parameter #1/mode @type string @repetitions/allow 1 @value/default manual"
+									"patching_rect" : [ 10.0, 40.0, 326.0, 20.0 ],
+									"text" : "jcom.parameter #1/mode @type string @repetitions/allow 1"
 								}
 
 							}
@@ -5660,7 +5660,7 @@
 									"destination" : [ "obj-4", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 245.0, 65.0, 44.5, 65.0 ],
+									"midpoints" : [ 173.0, 65.0, 44.5, 65.0 ],
 									"source" : [ "obj-138", 1 ]
 								}
 
@@ -7534,8 +7534,7 @@
 					"patching_rect" : [ 465.0, 420.0, 110.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 140.0, 20.0 ],
-					"range" : [ -2.0, 2.0 ],
-					"text" : "speed",
+					"text" : "#1",
 					"textpos" : [ 5.0, 4.0 ]
 				}
 
@@ -8041,6 +8040,77 @@
 					"source" : [ "obj-90", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j264.pu.returns.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Freelance/barroso/aninwardflow/library/j264-objects/abstractions/pu/pseudomodules/j264.pu.returns",
+				"patcherrelativepath" : "../../../abstractions/pu/pseudomodules/j264.pu.returns",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.getModuleNames.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getModuleNames",
+				"patcherrelativepath" : "../../../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getModuleNames",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.getReturnNames.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getReturnNames",
+				"patcherrelativepath" : "../../../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getReturnNames",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.getOneAttribute.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
+				"patcherrelativepath" : "../../../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j264.global.metro.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Freelance/barroso/aninwardflow/library/j264-objects/abstractions/globals/j264.global.metro",
+				"patcherrelativepath" : "../../../abstractions/globals/j264.global.metro",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j264.common.guistyle.maxpat",
+				"bootpath" : "/Users/josiah/Documents/Freelance/barroso/aninwardflow/library/j264-objects/abstractions/common/j264.common.guistyle",
+				"patcherrelativepath" : "../../../abstractions/common/j264.common.guistyle",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.textslider.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.loader.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.loader.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.oscroute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.map.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

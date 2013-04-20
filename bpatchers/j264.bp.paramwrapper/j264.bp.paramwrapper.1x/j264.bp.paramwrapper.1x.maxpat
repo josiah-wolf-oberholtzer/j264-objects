@@ -591,6 +591,20 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 210.0, 65.0, 100.0, 20.0 ],
+									"text" : "loadmess 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-5",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -916,13 +930,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-1",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 10.0, 90.0, 306.0, 60.0 ],
-									"text" : "jcom.parameter #1/value @type decimal @range/clipmode both @range/bounds 0. 1. @ramp/drive scheduler @repetitions/allow 1 @value/default 0"
+									"patching_rect" : [ 10.0, 90.0, 306.0, 47.0 ],
+									"text" : "jcom.parameter #1/value @type decimal @range/clipmode both @range/bounds 0. 1. @ramp/drive scheduler @repetitions/allow 1"
 								}
 
 							}
@@ -1033,6 +1047,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-6", 0 ]
 								}
 
 							}
@@ -7755,7 +7778,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "j264.pu.returns.maxpat",
-				"bootpath" : "/Users/josiah/Documents/Freelance/aninwardflow/library/j264-objects/abstractions/pu/pseudomodules/j264.pu.returns",
+				"bootpath" : "/Users/josiah/Documents/Freelance/barroso/aninwardflow/library/j264-objects/abstractions/pu/pseudomodules/j264.pu.returns",
 				"patcherrelativepath" : "../../../abstractions/pu/pseudomodules/j264.pu.returns",
 				"type" : "JSON",
 				"implicit" : 1
@@ -7763,34 +7786,34 @@
 , 			{
 				"name" : "jcom.getModuleNames.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getModuleNames",
-				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getModuleNames",
+				"patcherrelativepath" : "../../../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getModuleNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getReturnNames.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getReturnNames",
-				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getReturnNames",
+				"patcherrelativepath" : "../../../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getReturnNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getOneAttribute.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
-				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
+				"patcherrelativepath" : "../../../../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j264.global.metro.maxpat",
-				"bootpath" : "/Users/josiah/Documents/Freelance/aninwardflow/library/j264-objects/abstractions/globals/j264.global.metro",
+				"bootpath" : "/Users/josiah/Documents/Freelance/barroso/aninwardflow/library/j264-objects/abstractions/globals/j264.global.metro",
 				"patcherrelativepath" : "../../../abstractions/globals/j264.global.metro",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j264.common.guistyle.maxpat",
-				"bootpath" : "/Users/josiah/Documents/Freelance/aninwardflow/library/j264-objects/abstractions/common/j264.common.guistyle",
+				"bootpath" : "/Users/josiah/Documents/Freelance/barroso/aninwardflow/library/j264-objects/abstractions/common/j264.common.guistyle",
 				"patcherrelativepath" : "../../../abstractions/common/j264.common.guistyle",
 				"type" : "JSON",
 				"implicit" : 1
