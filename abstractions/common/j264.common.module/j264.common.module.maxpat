@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 1020.0, 530.0 ],
+		"rect" : [ 561.0, 197.0, 1020.0, 530.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 60.0, 325.0, 185.0, 20.0 ],
+					"patching_rect" : [ 60.0, 325.0, 197.0, 20.0 ],
 					"text" : "j264.common.module.fadeout #1"
 				}
 
@@ -50,7 +50,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 60.0, 295.0, 208.0, 20.0 ],
+					"patching_rect" : [ 60.0, 295.0, 220.0, 20.0 ],
 					"text" : "j264.common.module.namedsend #1"
 				}
 
@@ -237,8 +237,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 60.0, 195.0, 169.0, 20.0 ],
-					"text" : "j264.common.module.default"
+					"patching_rect" : [ 60.0, 195.0, 195.0, 20.0 ],
+					"text" : "j264.common.module.default #1"
 				}
 
 			}
